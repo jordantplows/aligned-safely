@@ -6,13 +6,15 @@ app.innerHTML = `
   <div class="page">
     <div class="banner">
       <span class="banner-text">Submit a bounty now — if Aligned-1 our latest model doesn't solve the problem, you get your money back</span>
-      <a href="mailto:contribute@alignedsafely.com?subject=Bounty%20Submission" class="banner-cta">Submit Bounty</a>
+      <a href="/bounty.html" class="banner-cta">Submit Bounty</a>
     </div>
     <nav>
       <span class="mark">Aligned</span>
       <div class="nav-links">
         <a href="/" class="nav-link">Home</a>
         <a href="/pricing.html" class="nav-link">Pricing</a>
+        <a href="/trust.html" class="nav-link">Trust Center</a>
+        <a href="/blog.html" class="nav-link">ASI-2</a>
         <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
       </div>
     </nav>

@@ -288,6 +288,450 @@ footer a:hover {
     color: #000000;
 }
 
+/* Form Styles */
+.form-container {
+    padding: 6rem 3rem;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+}
+
+.form-header h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    letter-spacing: -0.03em;
+}
+
+.form-intro {
+    font-size: 1rem;
+    color: #8a8a8a;
+    line-height: 1.6;
+}
+
+.bounty-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #a0a0a0;
+    letter-spacing: 0.02em;
+}
+
+.form-group input,
+.form-group textarea {
+    background: transparent;
+    border: 1px solid #2a2a2a;
+    border-radius: 8px;
+    padding: 0.85rem;
+    font-size: 0.9rem;
+    color: #ffffff;
+    font-family: inherit;
+    transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #c0392b;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.calendar-section {
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+
+.calendar-section h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.75rem;
+}
+
+.calendar-section p {
+    font-size: 0.9rem;
+    color: #8a8a8a;
+    margin-bottom: 1.25rem;
+}
+
+.calendar-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #c0392b;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.calendar-link:hover {
+    color: #e74c3c;
+}
+
+.form-submit {
+    background: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: inherit;
+}
+
+.form-submit:hover:not(:disabled) {
+    background: #c0392b;
+    color: #ffffff;
+}
+
+.form-submit:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Trust Center Styles */
+.trust-hero {
+    padding: 8rem 3rem 4rem;
+    text-align: center;
+}
+
+.trust-container {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.trust-title {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.04em;
+}
+
+.trust-subtitle {
+    font-size: 1.25rem;
+    color: #8a8a8a;
+    line-height: 1.6;
+}
+
+.trust-content {
+    padding: 4rem 3rem 8rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.trust-section {
+    margin-bottom: 6rem;
+}
+
+.trust-section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    letter-spacing: -0.02em;
+}
+
+.trust-section p {
+    font-size: 1rem;
+    line-height: 1.85;
+    color: #a0a0a0;
+    margin-bottom: 1.5rem;
+}
+
+.badge-showcase {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.badge-container {
+    margin-bottom: 3rem;
+}
+
+.asi-badge {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+    border: 2px solid #c0392b;
+    border-radius: 50%;
+    padding: 2rem;
+}
+
+.badge-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.badge-icon {
+    width: 64px;
+    height: 64px;
+    color: #c0392b;
+    margin-bottom: 1rem;
+}
+
+.badge-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.08em;
+}
+
+.badge-subtext {
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: #6a6a6a;
+    letter-spacing: 0.12em;
+}
+
+.badge-description {
+    font-size: 0.95rem;
+    color: #8a8a8a;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.standards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.standard-card {
+    background: transparent;
+    border: 1px solid #2a2a2a;
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.standard-card h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.standard-card p {
+    font-size: 0.9rem;
+    color: #8a8a8a;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.trust-cta {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    background: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+.trust-cta:hover {
+    background: #c0392b;
+    color: #ffffff;
+}
+
+/* Blog Styles */
+.blog-hero {
+    padding: 8rem 3rem 4rem;
+    text-align: center;
+}
+
+.blog-hero-content {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.blog-hero-title {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.04em;
+}
+
+.blog-hero-subtitle {
+    font-size: 1.25rem;
+    color: #8a8a8a;
+    line-height: 1.6;
+}
+
+.blog-content {
+    padding: 4rem 3rem 8rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 4rem;
+}
+
+.blog-post {
+    max-width: 720px;
+}
+
+.post-meta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+}
+
+.post-category {
+    color: #c0392b;
+    font-weight: 600;
+}
+
+.post-date {
+    color: #6a6a6a;
+}
+
+.blog-post h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    letter-spacing: -0.03em;
+    line-height: 1.2;
+}
+
+.blog-post h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 3rem 0 1.5rem;
+    letter-spacing: -0.02em;
+}
+
+.blog-post p {
+    font-size: 1rem;
+    line-height: 1.85;
+    color: #a0a0a0;
+    margin-bottom: 1.5rem;
+}
+
+.blog-post ul {
+    margin: 1.5rem 0;
+    padding-left: 1.5rem;
+}
+
+.blog-post li {
+    font-size: 1rem;
+    line-height: 1.85;
+    color: #a0a0a0;
+    margin-bottom: 1rem;
+}
+
+.blog-post strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.post-cta {
+    margin-top: 4rem;
+    padding: 2.5rem;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+    border: 1px solid #2a2a2a;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.post-cta p {
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+
+.blog-cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #c0392b;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+.blog-cta-button:hover {
+    background: #e74c3c;
+}
+
+.blog-sidebar {
+    position: sticky;
+    top: 2rem;
+    height: fit-content;
+}
+
+.sidebar-section {
+    background: transparent;
+    border: 1px solid #2a2a2a;
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.sidebar-section h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.02em;
+}
+
+.update-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.update-item:last-child {
+    margin-bottom: 0;
+}
+
+.update-date {
+    font-size: 0.75rem;
+    color: #6a6a6a;
+    letter-spacing: 0.04em;
+}
+
+.update-title {
+    font-size: 0.85rem;
+    color: #a0a0a0;
+}
+
 @media (max-width: 968px) {
     .banner {
         flex-direction: column;
@@ -311,5 +755,42 @@ footer a:hover {
 
     .pricing-card {
         padding: 2.5rem 2rem;
+    }
+
+    .form-container {
+        padding: 4rem 2rem;
+    }
+
+    .trust-hero {
+        padding: 6rem 2rem 3rem;
+    }
+
+    .trust-title {
+        font-size: 3rem;
+    }
+
+    .trust-content {
+        padding: 3rem 2rem 6rem;
+    }
+
+    .standards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .blog-hero {
+        padding: 6rem 2rem 3rem;
+    }
+
+    .blog-hero-title {
+        font-size: 3.5rem;
+    }
+
+    .blog-content {
+        grid-template-columns: 1fr;
+        padding: 3rem 2rem 6rem;
+    }
+
+    .blog-sidebar {
+        position: static;
     }
 }
