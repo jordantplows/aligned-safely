@@ -5,9 +5,11 @@ const app = document.querySelector<HTMLDivElement>("#app")!;
 app.innerHTML = `
   <div class="page">
     <nav>
-      <span class="mark">Aligned Labs</span>
+      <span class="mark">Aligned</span>
       <div class="nav-links">
-        <a href="mailto:contribute@alinedlabs.com" class="nav-link">Contact</a>
+        <a href="/" class="nav-link">Home</a>
+        <a href="/pricing.html" class="nav-link">Pricing</a>
+        <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
       </div>
     </nav>
     <section class="hero">
@@ -21,7 +23,7 @@ app.innerHTML = `
       <p class="accent">A proper technical memo with clarity on the direction of the lab will be published soon.</p>
     </section>
     <footer>
-      <a href="mailto:contribute@alinedlabs.com">contribute@alinedlabs.com</a>
+      <a href="mailto:contribute@alignedsafely.com">contribute@alignedsafely.com</a>
     </footer>
   </div>
 `;
