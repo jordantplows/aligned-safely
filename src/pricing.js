@@ -1,11 +1,9 @@
 import "./style.css";
-
-const app = document.querySelector<HTMLDivElement>("#app")!;
-
+const app = document.querySelector("#app");
 app.innerHTML = `
   <div class="page">
     <div class="banner">
-      <span class="banner-text">Submit a bounty now — if Aligned-1 our latest model doesn't solve the problem, you get your money back</span>
+      <span class="banner-text">Submit a bounty now — if we don't solve the problem, you get your money back</span>
       <a href="mailto:contribute@alignedsafely.com?subject=Bounty%20Submission" class="banner-cta">Submit Bounty</a>
     </div>
     <nav>
