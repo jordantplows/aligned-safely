@@ -106,7 +106,8 @@ nav {
 .content p {
     font-size: 0.95rem;
     line-height: 1.85;
-    color: #8a8a8a;
+    color: #ffffff;
+    font-weight: 600;
     margin-bottom: 1.25rem;
 }
 
