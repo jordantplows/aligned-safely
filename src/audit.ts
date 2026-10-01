@@ -9,7 +9,7 @@ app.innerHTML = `
       <a href="https://cal.com/jplows" target="_blank" class="banner-cta">Book Audit</a>
     </div>
     <nav>
-      <span class="mark">Aligned</span>
+      <span class="mark">Aligned Super Intelligence</span>
       <div class="nav-links">
         <a href="/" class="nav-link">Home</a>
         <a href="https://cal.com/jplows" target="_blank" class="nav-link" style="color: var(--accent); font-weight: 600;">Book Audit</a>
@@ -191,8 +191,8 @@ app.innerHTML = `
 
     <footer style="padding: 3rem; text-align: center; background: var(--surface); border-top: 1px solid var(--line);">
       <div style="max-width: 800px; margin: 0 auto;">
-        <div style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; font-family: var(--font-serif);">Aligned</div>
-        <p style="color: var(--muted); margin-bottom: 2rem; line-height: 1.6;">Enterprise AI Security Audits</p>
+        <div style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; font-family: var(--font-serif);">Aligned Super Intelligence</div>
+        <p style="color: var(--muted); margin-bottom: 2rem; line-height: 1.6;">Protect Your AI From ASI Threats</p>
         <div style="display: flex; justify-content: center; gap: 2rem; margin-bottom: 2rem; flex-wrap: wrap;">
           <a href="https://cal.com/jplows" target="_blank" style="color: var(--accent); text-decoration: none; font-weight: 500;">Book Audit</a>
           <a href="mailto:contribute@alignedsafely.com" style="color: var(--accent); text-decoration: none; font-weight: 500;">Email</a>
