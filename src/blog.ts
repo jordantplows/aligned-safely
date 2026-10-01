@@ -15,6 +15,7 @@ app.innerHTML = `
         <a href="/pricing.html" class="nav-link">Pricing</a>
         <a href="/trust.html" class="nav-link">Trust Center</a>
         <a href="/asi-1.html" class="nav-link">ASI-1</a>
+        <a href="/founders-note.html" class="nav-link">Founder's Note</a>
         <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
       </div>
     </nav>
@@ -117,6 +118,7 @@ app.innerHTML = `
           <h4>Resources</h4>
           <ul class="footer-links">
             <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/founders-note.html">Founder's Note</a></li>
             <li><a href="/trust.html">Documentation</a></li>
             <li><a href="/bounty.html">Submit Bounty</a></li>
             <li><a href="mailto:contribute@alignedsafely.com">Contact</a></li>

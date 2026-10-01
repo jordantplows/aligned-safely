@@ -1,4 +1,4 @@
-import"./style-DJ20TOMq.js";var e=document.querySelector(`#app`);e.innerHTML=`
+import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
   <div class="page">
     <div class="banner">
       <span class="banner-text">Submit a bounty now — if Aligned-1 our latest model doesn't solve the problem, you get your money back</span>
@@ -11,43 +11,83 @@ import"./style-DJ20TOMq.js";var e=document.querySelector(`#app`);e.innerHTML=`
         <a href="/pricing.html" class="nav-link">Pricing</a>
         <a href="/trust.html" class="nav-link">Trust Center</a>
         <a href="/asi-1.html" class="nav-link">ASI-1</a>
+        <a href="/founders-note.html" class="nav-link">Founder's Note</a>
         <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
       </div>
     </nav>
-    <section class="form-container">
-      <div class="form-header">
-        <h2>Submit a Bounty</h2>
-        <p class="form-intro">Tell us about the AI security issue you need tested. If Aligned-1 doesn't solve it, you get your money back.</p>
+    <section class="blog-hero">
+      <div class="blog-hero-content">
+        <div class="rule"></div>
+        <h1 class="blog-hero-title">ASI-2</h1>
+        <p class="blog-hero-subtitle">The new standard for aligned artificial intelligence systems</p>
       </div>
-      <form class="bounty-form" id="bountyForm">
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required>
+    </section>
+    <section class="blog-content">
+      <article class="blog-post">
+        <div class="post-meta">
+          <span class="post-category">STANDARD</span>
+          <span class="post-date">September 2026</span>
         </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
+        <h2>Introducing ASI-2: The Industry Standard for AI Alignment</h2>
+        <p>Today, we're announcing ASI-2 (Aligned Systems Intelligence Standard 2), a comprehensive framework for certifying that AI systems meet rigorous alignment and security standards.</p>
+
+        <h3>Why ASI-2 Matters</h3>
+        <p>As AI systems become more powerful and autonomous, the industry needs a clear, auditable standard for what it means to be "aligned." Just as SOC-2 certification became the gold standard for data security and privacy, ASI-2 establishes the benchmark for AI systems that prioritize safety, transparency, and human values.</p>
+
+        <h3>The ASI-2 Framework</h3>
+        <p>ASI-2 certification requires organizations to demonstrate:</p>
+        <ul>
+          <li><strong>Robust Alignment Testing:</strong> Comprehensive evaluation of model behavior across adversarial scenarios</li>
+          <li><strong>Security Guarantees:</strong> Protection against prompt injection, jailbreaking, and misalignment attacks</li>
+          <li><strong>Transparent Operations:</strong> Clear documentation of training processes, data sources, and decision-making</li>
+          <li><strong>Continuous Validation:</strong> Ongoing monitoring and re-certification as systems evolve</li>
+        </ul>
+
+        <h3>Setting the Gold Standard</h3>
+        <p>Our mission is to establish ASI-2 as the definitive certification for aligned AI systems. Organizations that achieve ASI-2 certification demonstrate their commitment to building AI that is safe, secure, and aligned with human values.</p>
+
+        <h3>Who Needs ASI-2?</h3>
+        <p>ASI-2 certification is essential for:</p>
+        <ul>
+          <li><strong>AI Model Developers:</strong> Companies building foundation models, chatbots, or autonomous agents</li>
+          <li><strong>Enterprise AI Teams:</strong> Organizations deploying AI systems that make critical decisions</li>
+          <li><strong>AI Security Vendors:</strong> Companies providing AI safety and alignment tools</li>
+          <li><strong>Regulated Industries:</strong> Healthcare, finance, and government entities using AI</li>
+        </ul>
+
+        <h3>The Certification Process</h3>
+        <p>Achieving ASI-2 certification involves a rigorous multi-phase evaluation:</p>
+        <p><strong>Phase 1: Documentation Review</strong> - We examine your AI system architecture, training data provenance, model cards, and alignment methodologies.</p>
+        <p><strong>Phase 2: Adversarial Testing</strong> - Our Aligned-1 model conducts comprehensive penetration testing, attempting prompt injection, jailbreaks, data extraction, and misalignment attacks.</p>
+        <p><strong>Phase 3: Continuous Monitoring Setup</strong> - We establish ongoing validation systems to ensure your AI remains aligned as it evolves.</p>
+        <p><strong>Phase 4: Audit & Certification</strong> - Final review and issuance of your ASI-2 certificate and badge.</p>
+
+        <h3>Join the Movement</h3>
+        <p>The future of AI depends on establishing clear standards for alignment and safety. ASI-2 isn't just a certification—it's a commitment to building AI that serves humanity's best interests. Early adopters of ASI-2 will help define what responsible AI development looks like for the next decade.</p>
+
+        <div class="post-cta">
+          <p>Ready to become ASI-2 certified?</p>
+          <a href="/bounty.html" class="blog-cta-button">Start Your Certification</a>
         </div>
-        <div class="form-group">
-          <label for="company">Company (Optional)</label>
-          <input type="text" id="company" name="company">
+      </article>
+
+      <aside class="blog-sidebar">
+        <div class="sidebar-section">
+          <h4>Latest Updates</h4>
+          <div class="update-item">
+            <span class="update-date">Sep 2026</span>
+            <span class="update-title">ASI-2 Framework Launch</span>
+          </div>
+          <div class="update-item">
+            <span class="update-date">Coming Soon</span>
+            <span class="update-title">First Certified Partners</span>
+          </div>
+          <div class="update-item">
+            <span class="update-date">Coming Soon</span>
+            <span class="update-title">Technical Specification v1.0</span>
+          </div>
         </div>
-        <div class="form-group">
-          <label for="issue">Describe the Issue</label>
-          <textarea id="issue" name="issue" rows="6" placeholder="What vulnerability or security concern do you need tested?" required></textarea>
-        </div>
-        <div class="form-group">
-          <label for="details">Additional Details</label>
-          <textarea id="details" name="details" rows="4" placeholder="Any specific attack vectors, context, or requirements we should know about?"></textarea>
-        </div>
-        <div class="calendar-section">
-          <div class="rule"></div>
-          <h3>Schedule a Call</h3>
-          <p>Book a 30-minute consultation to discuss your bounty submission and next steps.</p>
-          <a href="https://cal.com" target="_blank" class="calendar-link">Schedule on Calendar →</a>
-        </div>
-        <button type="submit" class="form-submit">Submit Bounty</button>
-      </form>
+      </aside>
     </section>
     <footer>
       <div class="footer-main">
@@ -74,6 +114,7 @@ import"./style-DJ20TOMq.js";var e=document.querySelector(`#app`);e.innerHTML=`
           <h4>Resources</h4>
           <ul class="footer-links">
             <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/founders-note.html">Founder's Note</a></li>
             <li><a href="/trust.html">Documentation</a></li>
             <li><a href="/bounty.html">Submit Bounty</a></li>
             <li><a href="mailto:contribute@alignedsafely.com">Contact</a></li>
@@ -143,4 +184,4 @@ import"./style-DJ20TOMq.js";var e=document.querySelector(`#app`);e.innerHTML=`
       </div>
     </footer>
   </div>
-`;var t=document.getElementById(`bountyForm`),n=t.querySelector(`button[type="submit"]`);t.addEventListener(`submit`,async e=>{e.preventDefault();let r=new FormData(t),i={name:r.get(`name`),email:r.get(`email`),company:r.get(`company`),issue:r.get(`issue`),details:r.get(`details`)},a=n.textContent;n.textContent=`Submitting...`,n.disabled=!0;try{if((await fetch(`https://formspree.io/f/YOUR_FORM_ID`,{method:`POST`,headers:{"Content-Type":`application/json`},body:JSON.stringify(i)})).ok)n.textContent=`✓ Submitted`,n.style.background=`#27ae60`,t.reset(),setTimeout(()=>{n.textContent=a,n.style.background=``,n.disabled=!1},3e3);else throw Error(`Submission failed`)}catch{n.textContent=`Failed - Try Again`,n.style.background=`#c0392b`,setTimeout(()=>{n.textContent=a,n.style.background=``,n.disabled=!1},3e3)}});
+`;

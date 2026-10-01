@@ -1,4 +1,4 @@
-import"./style-DJ20TOMq.js";var e=document.querySelector(`#app`);e.innerHTML=`
+import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
   <div class="page">
     <div class="banner">
       <span class="banner-text">Submit a bounty now — if Aligned-1 our latest model doesn't solve the problem, you get your money back</span>
@@ -14,67 +14,50 @@ import"./style-DJ20TOMq.js";var e=document.querySelector(`#app`);e.innerHTML=`
         <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
       </div>
     </nav>
-    <section class="trust-hero">
-      <div class="trust-container">
-        <div class="rule"></div>
-        <h1 class="trust-title">Trust Center</h1>
-        <p class="trust-subtitle">Building the gold standard for AI alignment and security certification</p>
-      </div>
-    </section>
-    <section class="trust-content">
-      <div class="trust-section">
-        <div class="badge-showcase">
-          <div class="badge-container">
-            <div class="asi-badge">
-              <div class="badge-inner">
-                <div class="badge-icon">
-                  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="2"/>
-                    <path d="M 30 50 L 45 65 L 70 35" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
-                </div>
-                <div class="badge-text">ASI-2</div>
-                <div class="badge-subtext">CERTIFIED</div>
-              </div>
-            </div>
-          </div>
-          <p class="badge-description">The ASI-2 certification badge represents the highest standard of AI alignment and security in the industry.</p>
-        </div>
-      </div>
+    <section class="content" style="max-width: 840px; margin: 0 auto; padding: 6rem 3rem;">
+      <div class="rule"></div>
+      <h1 style="font-size: 3rem; font-weight: 600; color: #ffffff; margin-bottom: 2rem; letter-spacing: -0.03em;">Privacy Policy</h1>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Last updated: September 25, 2026</p>
 
-      <div class="trust-section">
-        <h2>What is ASI-2?</h2>
-        <p>ASI-2 (Aligned Systems Intelligence Standard 2) is a comprehensive certification program that validates AI systems and organizations meet rigorous standards for alignment and security.</p>
-        <p>Similar to how SOC-2 became the industry standard for security and data privacy, ASI-2 establishes the benchmark for aligned AI systems—ensuring that AI development prioritizes safety, transparency, and human values.</p>
-      </div>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">1. Information We Collect</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We collect information you provide directly to us, including name, email address, company information, and details about your security testing requirements.</p>
 
-      <div class="trust-section">
-        <h2>Certification Standards</h2>
-        <div class="standards-grid">
-          <div class="standard-card">
-            <h3>Alignment Verification</h3>
-            <p>Rigorous testing to ensure AI systems operate in accordance with stated objectives and human values.</p>
-          </div>
-          <div class="standard-card">
-            <h3>Security Framework</h3>
-            <p>Comprehensive security measures protecting against adversarial attacks and misalignment scenarios.</p>
-          </div>
-          <div class="standard-card">
-            <h3>Transparency Standards</h3>
-            <p>Clear documentation of model behavior, training data sources, and decision-making processes.</p>
-          </div>
-          <div class="standard-card">
-            <h3>Continuous Monitoring</h3>
-            <p>Ongoing assessment and validation to maintain certification as systems evolve.</p>
-          </div>
-        </div>
-      </div>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">2. How We Use Your Information</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We use the information we collect to provide, maintain, and improve our services, to process your requests, and to communicate with you about our services.</p>
 
-      <div class="trust-section">
-        <h2>Get ASI-2 Certified</h2>
-        <p>Organizations building AI systems can apply for ASI-2 certification to demonstrate their commitment to the highest standards of alignment and security.</p>
-        <a href="/bounty.html" class="trust-cta">Apply for Certification</a>
-      </div>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">3. Data Security</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We implement appropriate technical and organizational measures to protect your personal data against unauthorized or unlawful processing, accidental loss, destruction, or damage.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">4. Data Retention</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We retain your information for as long as necessary to provide our services and fulfill the purposes outlined in this policy, unless a longer retention period is required by law.</p>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Test results and vulnerability reports are retained for 7 years to support ongoing security research and ASI-2 certification maintenance. Contact information is retained while you remain an active customer and for 2 years after your last interaction with us.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">5. Data Sharing</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We do not sell your personal information. We may share data with:</p>
+      <ul style="margin-left: 1.5rem; margin-bottom: 1.5rem;">
+        <li style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 0.5rem;">Service providers who assist in delivering our services</li>
+        <li style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 0.5rem;">Legal authorities when required by law or to protect our rights</li>
+        <li style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 0.5rem;">ASI-2 certification auditors (with your consent)</li>
+      </ul>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">6. Your Rights</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">You have the right to access, correct, or delete your personal data. You may also object to or restrict certain processing of your data.</p>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Under GDPR and CCPA, you have additional rights including data portability and the right to opt-out of certain data processing. To exercise these rights, contact us at the email below.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">7. Cookies and Tracking</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We use essential cookies to maintain session state and provide our services. We do not use third-party tracking cookies or advertising networks. Analytics are collected in aggregate and anonymized.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">8. International Data Transfers</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Your data may be processed in countries outside your residence. We ensure appropriate safeguards are in place through standard contractual clauses and compliance with applicable data protection frameworks.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">9. Children's Privacy</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Our services are not directed to individuals under 18. We do not knowingly collect personal information from children.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">10. Changes to This Policy</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We may update this Privacy Policy periodically. We will notify you of material changes via email or through our website. Continued use of our services after changes constitutes acceptance of the updated policy.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">11. Contact Us</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">If you have questions about this Privacy Policy, please contact us at <a href="mailto:contribute@alignedsafely.com" style="color: #c0392b; text-decoration: none;">contribute@alignedsafely.com</a></p>
     </section>
     <footer>
       <div class="footer-main">

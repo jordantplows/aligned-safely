@@ -1,4 +1,4 @@
-import"./style-DJ20TOMq.js";var e=document.querySelector(`#app`);e.innerHTML=`
+import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
   <div class="page">
     <div class="banner">
       <span class="banner-text">Submit a bounty now — if Aligned-1 our latest model doesn't solve the problem, you get your money back</span>
@@ -14,42 +14,67 @@ import"./style-DJ20TOMq.js";var e=document.querySelector(`#app`);e.innerHTML=`
         <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
       </div>
     </nav>
-    <section class="content" style="max-width: 840px; margin: 0 auto; padding: 6rem 3rem;">
-      <div class="rule"></div>
-      <h1 style="font-size: 3rem; font-weight: 600; color: #ffffff; margin-bottom: 2rem; letter-spacing: -0.03em;">Terms of Service</h1>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Last updated: September 25, 2026</p>
+    <section class="trust-hero">
+      <div class="trust-container">
+        <div class="rule"></div>
+        <h1 class="trust-title">Trust Center</h1>
+        <p class="trust-subtitle">Building the gold standard for AI alignment and security certification</p>
+      </div>
+    </section>
+    <section class="trust-content">
+      <div class="trust-section">
+        <div class="badge-showcase">
+          <div class="badge-container">
+            <div class="asi-badge">
+              <div class="badge-inner">
+                <div class="badge-icon">
+                  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <path d="M 30 50 L 45 65 L 70 35" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="badge-text">ASI-2</div>
+                <div class="badge-subtext">CERTIFIED</div>
+              </div>
+            </div>
+          </div>
+          <p class="badge-description">The ASI-2 certification badge represents the highest standard of AI alignment and security in the industry.</p>
+        </div>
+      </div>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">1. Acceptance of Terms</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">By accessing and using Aligned's services, you accept and agree to be bound by the terms and provision of this agreement.</p>
+      <div class="trust-section">
+        <h2>What is ASI-2?</h2>
+        <p>ASI-2 (Aligned Systems Intelligence Standard 2) is a comprehensive certification program that validates AI systems and organizations meet rigorous standards for alignment and security.</p>
+        <p>Similar to how SOC-2 became the industry standard for security and data privacy, ASI-2 establishes the benchmark for aligned AI systems—ensuring that AI development prioritizes safety, transparency, and human values.</p>
+      </div>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">2. Use License</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Permission is granted to temporarily use Aligned's services for personal or commercial evaluation purposes. This is the grant of a license, not a transfer of title.</p>
+      <div class="trust-section">
+        <h2>Certification Standards</h2>
+        <div class="standards-grid">
+          <div class="standard-card">
+            <h3>Alignment Verification</h3>
+            <p>Rigorous testing to ensure AI systems operate in accordance with stated objectives and human values.</p>
+          </div>
+          <div class="standard-card">
+            <h3>Security Framework</h3>
+            <p>Comprehensive security measures protecting against adversarial attacks and misalignment scenarios.</p>
+          </div>
+          <div class="standard-card">
+            <h3>Transparency Standards</h3>
+            <p>Clear documentation of model behavior, training data sources, and decision-making processes.</p>
+          </div>
+          <div class="standard-card">
+            <h3>Continuous Monitoring</h3>
+            <p>Ongoing assessment and validation to maintain certification as systems evolve.</p>
+          </div>
+        </div>
+      </div>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">3. Service Description</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Aligned provides AI security testing, penetration testing, and ASI-2 certification services. We reserve the right to modify or discontinue services at any time.</p>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Our services include but are not limited to: adversarial testing using Aligned-1, prompt injection detection, jailbreak vulnerability assessment, data extraction testing, alignment verification, continuous monitoring, and ASI-2 certification audits.</p>
-
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">4. User Obligations</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">You agree to provide accurate information about your AI systems and testing requirements. You are responsible for ensuring you have proper authorization to submit AI systems for testing. You must not use our services to test systems that violate applicable laws or regulations.</p>
-
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">5. Confidentiality</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We treat all information about your AI systems as confidential. Test results, vulnerability reports, and system architecture details will not be shared with third parties without your explicit consent, except as required by law.</p>
-
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">6. Payment Terms</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Payment is due upon completion of services unless otherwise agreed. For bounty submissions, our money-back guarantee applies if Aligned-1 fails to identify the claimed vulnerability. Refund requests must be submitted within 30 days of service completion.</p>
-
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">7. Limitation of Liability</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Aligned shall not be liable for any indirect, incidental, special, consequential or punitive damages resulting from your use of our services. Our total liability shall not exceed the amount paid for the specific service.</p>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We provide testing and certification services but do not guarantee that AI systems are completely secure or aligned. Security and alignment are ongoing processes requiring continuous monitoring.</p>
-
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">8. Termination</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We reserve the right to terminate or suspend services for violation of these terms, non-payment, or misuse of our services. Upon termination, you will receive all completed work and reports.</p>
-
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">9. Governing Law</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">These Terms shall be governed by and construed in accordance with applicable laws. Any disputes shall be resolved through binding arbitration.</p>
-
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">10. Contact</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">For questions about these Terms, please contact us at <a href="mailto:contribute@alignedsafely.com" style="color: #c0392b; text-decoration: none;">contribute@alignedsafely.com</a></p>
+      <div class="trust-section">
+        <h2>Get ASI-2 Certified</h2>
+        <p>Organizations building AI systems can apply for ASI-2 certification to demonstrate their commitment to the highest standards of alignment and security.</p>
+        <a href="/bounty.html" class="trust-cta">Apply for Certification</a>
+      </div>
     </section>
     <footer>
       <div class="footer-main">

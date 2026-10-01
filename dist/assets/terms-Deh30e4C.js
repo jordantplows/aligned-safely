@@ -1,6 +1,4 @@
-import "./style.css";
-const app = document.querySelector("#app");
-app.innerHTML = `
+import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
   <div class="page">
     <div class="banner">
       <span class="banner-text">Submit a bounty now — if Aligned-1 our latest model doesn't solve the problem, you get your money back</span>
@@ -13,83 +11,45 @@ app.innerHTML = `
         <a href="/pricing.html" class="nav-link">Pricing</a>
         <a href="/trust.html" class="nav-link">Trust Center</a>
         <a href="/asi-1.html" class="nav-link">ASI-1</a>
-        <a href="/founders-note.html" class="nav-link">Founder's Note</a>
         <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
       </div>
     </nav>
-    <section class="blog-hero">
-      <div class="blog-hero-content">
-        <div class="rule"></div>
-        <h1 class="blog-hero-title">ASI-2</h1>
-        <p class="blog-hero-subtitle">The new standard for aligned artificial intelligence systems</p>
-      </div>
-    </section>
-    <section class="blog-content">
-      <article class="blog-post">
-        <div class="post-meta">
-          <span class="post-category">STANDARD</span>
-          <span class="post-date">September 2026</span>
-        </div>
-        <h2>Introducing ASI-2: The Industry Standard for AI Alignment</h2>
-        <p>Today, we're announcing ASI-2 (Aligned Systems Intelligence Standard 2), a comprehensive framework for certifying that AI systems meet rigorous alignment and security standards.</p>
+    <section class="content" style="max-width: 840px; margin: 0 auto; padding: 6rem 3rem;">
+      <div class="rule"></div>
+      <h1 style="font-size: 3rem; font-weight: 600; color: #ffffff; margin-bottom: 2rem; letter-spacing: -0.03em;">Terms of Service</h1>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Last updated: September 25, 2026</p>
 
-        <h3>Why ASI-2 Matters</h3>
-        <p>As AI systems become more powerful and autonomous, the industry needs a clear, auditable standard for what it means to be "aligned." Just as SOC-2 certification became the gold standard for data security and privacy, ASI-2 establishes the benchmark for AI systems that prioritize safety, transparency, and human values.</p>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">1. Acceptance of Terms</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">By accessing and using Aligned's services, you accept and agree to be bound by the terms and provision of this agreement.</p>
 
-        <h3>The ASI-2 Framework</h3>
-        <p>ASI-2 certification requires organizations to demonstrate:</p>
-        <ul>
-          <li><strong>Robust Alignment Testing:</strong> Comprehensive evaluation of model behavior across adversarial scenarios</li>
-          <li><strong>Security Guarantees:</strong> Protection against prompt injection, jailbreaking, and misalignment attacks</li>
-          <li><strong>Transparent Operations:</strong> Clear documentation of training processes, data sources, and decision-making</li>
-          <li><strong>Continuous Validation:</strong> Ongoing monitoring and re-certification as systems evolve</li>
-        </ul>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">2. Use License</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Permission is granted to temporarily use Aligned's services for personal or commercial evaluation purposes. This is the grant of a license, not a transfer of title.</p>
 
-        <h3>Setting the Gold Standard</h3>
-        <p>Our mission is to establish ASI-2 as the definitive certification for aligned AI systems. Organizations that achieve ASI-2 certification demonstrate their commitment to building AI that is safe, secure, and aligned with human values.</p>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">3. Service Description</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Aligned provides AI security testing, penetration testing, and ASI-2 certification services. We reserve the right to modify or discontinue services at any time.</p>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Our services include but are not limited to: adversarial testing using Aligned-1, prompt injection detection, jailbreak vulnerability assessment, data extraction testing, alignment verification, continuous monitoring, and ASI-2 certification audits.</p>
 
-        <h3>Who Needs ASI-2?</h3>
-        <p>ASI-2 certification is essential for:</p>
-        <ul>
-          <li><strong>AI Model Developers:</strong> Companies building foundation models, chatbots, or autonomous agents</li>
-          <li><strong>Enterprise AI Teams:</strong> Organizations deploying AI systems that make critical decisions</li>
-          <li><strong>AI Security Vendors:</strong> Companies providing AI safety and alignment tools</li>
-          <li><strong>Regulated Industries:</strong> Healthcare, finance, and government entities using AI</li>
-        </ul>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">4. User Obligations</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">You agree to provide accurate information about your AI systems and testing requirements. You are responsible for ensuring you have proper authorization to submit AI systems for testing. You must not use our services to test systems that violate applicable laws or regulations.</p>
 
-        <h3>The Certification Process</h3>
-        <p>Achieving ASI-2 certification involves a rigorous multi-phase evaluation:</p>
-        <p><strong>Phase 1: Documentation Review</strong> - We examine your AI system architecture, training data provenance, model cards, and alignment methodologies.</p>
-        <p><strong>Phase 2: Adversarial Testing</strong> - Our Aligned-1 model conducts comprehensive penetration testing, attempting prompt injection, jailbreaks, data extraction, and misalignment attacks.</p>
-        <p><strong>Phase 3: Continuous Monitoring Setup</strong> - We establish ongoing validation systems to ensure your AI remains aligned as it evolves.</p>
-        <p><strong>Phase 4: Audit & Certification</strong> - Final review and issuance of your ASI-2 certificate and badge.</p>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">5. Confidentiality</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We treat all information about your AI systems as confidential. Test results, vulnerability reports, and system architecture details will not be shared with third parties without your explicit consent, except as required by law.</p>
 
-        <h3>Join the Movement</h3>
-        <p>The future of AI depends on establishing clear standards for alignment and safety. ASI-2 isn't just a certification—it's a commitment to building AI that serves humanity's best interests. Early adopters of ASI-2 will help define what responsible AI development looks like for the next decade.</p>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">6. Payment Terms</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Payment is due upon completion of services unless otherwise agreed. For bounty submissions, our money-back guarantee applies if Aligned-1 fails to identify the claimed vulnerability. Refund requests must be submitted within 30 days of service completion.</p>
 
-        <div class="post-cta">
-          <p>Ready to become ASI-2 certified?</p>
-          <a href="/bounty.html" class="blog-cta-button">Start Your Certification</a>
-        </div>
-      </article>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">7. Limitation of Liability</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Aligned shall not be liable for any indirect, incidental, special, consequential or punitive damages resulting from your use of our services. Our total liability shall not exceed the amount paid for the specific service.</p>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We provide testing and certification services but do not guarantee that AI systems are completely secure or aligned. Security and alignment are ongoing processes requiring continuous monitoring.</p>
 
-      <aside class="blog-sidebar">
-        <div class="sidebar-section">
-          <h4>Latest Updates</h4>
-          <div class="update-item">
-            <span class="update-date">Sep 2026</span>
-            <span class="update-title">ASI-2 Framework Launch</span>
-          </div>
-          <div class="update-item">
-            <span class="update-date">Coming Soon</span>
-            <span class="update-title">First Certified Partners</span>
-          </div>
-          <div class="update-item">
-            <span class="update-date">Coming Soon</span>
-            <span class="update-title">Technical Specification v1.0</span>
-          </div>
-        </div>
-      </aside>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">8. Termination</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We reserve the right to terminate or suspend services for violation of these terms, non-payment, or misuse of our services. Upon termination, you will receive all completed work and reports.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">9. Governing Law</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">These Terms shall be governed by and construed in accordance with applicable laws. Any disputes shall be resolved through binding arbitration.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">10. Contact</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">For questions about these Terms, please contact us at <a href="mailto:contribute@alignedsafely.com" style="color: #c0392b; text-decoration: none;">contribute@alignedsafely.com</a></p>
     </section>
     <footer>
       <div class="footer-main">
@@ -116,7 +76,6 @@ app.innerHTML = `
           <h4>Resources</h4>
           <ul class="footer-links">
             <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/founders-note.html">Founder's Note</a></li>
             <li><a href="/trust.html">Documentation</a></li>
             <li><a href="/bounty.html">Submit Bounty</a></li>
             <li><a href="mailto:contribute@alignedsafely.com">Contact</a></li>

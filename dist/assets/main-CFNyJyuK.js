@@ -1,4 +1,4 @@
-import"./style-DJ20TOMq.js";var e=document.querySelector(`#app`);e.innerHTML=`
+import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
   <div class="page">
     <div class="banner">
       <span class="banner-text">Submit a bounty now — if Aligned-1 our latest model doesn't solve the problem, you get your money back</span>
@@ -11,55 +11,19 @@ import"./style-DJ20TOMq.js";var e=document.querySelector(`#app`);e.innerHTML=`
         <a href="/pricing.html" class="nav-link">Pricing</a>
         <a href="/trust.html" class="nav-link">Trust Center</a>
         <a href="/asi-1.html" class="nav-link">ASI-1</a>
+        <a href="/founders-note.html" class="nav-link">Founder's Note</a>
         <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
       </div>
     </nav>
-    <section class="catalog">
-      <div class="catalog-header">
-        <h2>Penetration Testing</h2>
-        <p class="catalog-intro">Powered by Aligned 1</p>
-      </div>
-      <div class="aligned-info">
-        <div class="rule"></div>
-        <h3>About Aligned 1</h3>
-        <p>Aligned 1 is our specialized adversarial AI model built specifically for penetration testing AI applications and chatbots. Unlike traditional security tools, Aligned 1 understands the unique attack surfaces of language models and can identify vulnerabilities that conventional testing methods miss.</p>
-        <p>Our model systematically tests for prompt injection, jailbreak attempts, data extraction vulnerabilities, context manipulation, and other AI-specific security risks. Aligned 1 simulates real-world adversarial behavior to expose weaknesses before malicious actors can exploit them.</p>
-        <p>Every test produces a detailed technical report with proof-of-concept exploits, risk assessments, and concrete remediation steps — giving your team everything needed to secure your AI systems.</p>
-      </div>
-      <div class="pricing-grid">
-        <div class="pricing-card">
-          <div class="pricing-tier">Essential</div>
-          <div class="pricing-amount">$2,500</div>
-          <ul class="pricing-features">
-            <li>Prompt injection testing</li>
-            <li>Jailbreak detection</li>
-            <li>Security report</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Essential Pen-Test" class="pricing-cta">Get Started</a>
-        </div>
-        <div class="pricing-card">
-          <div class="pricing-tier">Professional</div>
-          <div class="pricing-amount">$7,500</div>
-          <ul class="pricing-features">
-            <li>Full adversarial testing</li>
-            <li>Data extraction attempts</li>
-            <li>Vulnerability report</li>
-            <li>Remediation guide</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Professional Pen-Test" class="pricing-cta">Get Started</a>
-        </div>
-        <div class="pricing-card">
-          <div class="pricing-tier">Enterprise</div>
-          <div class="pricing-amount">Custom</div>
-          <ul class="pricing-features">
-            <li>Continuous monitoring</li>
-            <li>Custom attack scenarios</li>
-            <li>Direct consultation</li>
-            <li>Quarterly audits</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Enterprise Pen-Test" class="pricing-cta">Contact Us</a>
-        </div>
-      </div>
+    <section class="hero">
+      <img src="/hero.png" alt="SA/E HUMANITY" class="hero-img" />
+    </section>
+    <section class="content">
+      <div class="rule"></div>
+      <p>We are setting the gold standard for AI alignment and security in the industry. This is not a winner-takes-all situation. This will require billions in funding, but the goal is not capitalistic gains in the next ten years.</p>
+      <p>Our mission is to establish the highest standards of AI safety and alignment, ensuring that advanced AI systems are developed with robust security and alignment guarantees. We're building the infrastructure and standards that will define what it means to be truly aligned.</p>
+      <p>Through our ASI-2 certification program and rigorous testing framework, we're creating the industry standard for AI safety—similar to how SOC-2 defined security standards, but specifically for aligned AI systems.</p>
+      <p class="accent">A proper technical memo with clarity on the direction of the lab will be published soon.</p>
     </section>
     <footer>
       <div class="footer-main">
@@ -85,6 +49,7 @@ import"./style-DJ20TOMq.js";var e=document.querySelector(`#app`);e.innerHTML=`
           <h4>Resources</h4>
           <ul class="footer-links">
             <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/founders-note.html">Founder's Note</a></li>
             <li><a href="/trust.html">Documentation</a></li>
             <li><a href="/bounty.html">Submit Bounty</a></li>
             <li><a href="mailto:contribute@alignedsafely.com">Contact</a></li>

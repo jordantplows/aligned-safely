@@ -10,6 +10,7 @@ export default defineConfig({
         bounty: resolve(import.meta.dirname, 'bounty.html'),
         trust: resolve(import.meta.dirname, 'trust.html'),
         blog: resolve(import.meta.dirname, 'blog.html'),
+        foundersNote: resolve(import.meta.dirname, 'founders-note.html'),
         terms: resolve(import.meta.dirname, 'terms.html'),
         privacy: resolve(import.meta.dirname, 'privacy.html'),
         security: resolve(import.meta.dirname, 'security.html'),

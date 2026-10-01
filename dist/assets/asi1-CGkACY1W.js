@@ -1,4 +1,4 @@
-import"./style-DJ20TOMq.js";import{t as e}from"./asi-1-controls-DJBW_-Ta.js";var t=document.querySelector(`#app`);t.innerHTML=`
+import"./style-DP_wUZhT.js";import{t as e}from"./asi-1-controls-DJBW_-Ta.js";var t=document.querySelector(`#app`);t.innerHTML=`
   <div class="page">
     <div class="banner">
       <span class="banner-text">Submit a bounty now — if Aligned-1 our latest model doesn't solve the problem, you get your money back</span>

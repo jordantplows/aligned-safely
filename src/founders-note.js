@@ -1,4 +1,6 @@
-import"./style-DJ20TOMq.js";var e=document.querySelector(`#app`);e.innerHTML=`
+import "./style.css";
+const app = document.querySelector("#app");
+app.innerHTML = `
   <div class="page">
     <div class="banner">
       <span class="banner-text">Submit a bounty now — if Aligned-1 our latest model doesn't solve the problem, you get your money back</span>
@@ -11,80 +13,56 @@ import"./style-DJ20TOMq.js";var e=document.querySelector(`#app`);e.innerHTML=`
         <a href="/pricing.html" class="nav-link">Pricing</a>
         <a href="/trust.html" class="nav-link">Trust Center</a>
         <a href="/asi-1.html" class="nav-link">ASI-1</a>
+        <a href="/founders-note.html" class="nav-link">Founder's Note</a>
         <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
       </div>
     </nav>
     <section class="blog-hero">
       <div class="blog-hero-content">
         <div class="rule"></div>
-        <h1 class="blog-hero-title">ASI-2</h1>
-        <p class="blog-hero-subtitle">The new standard for aligned artificial intelligence systems</p>
+        <h1 class="blog-hero-title">A Founder's Note on Superintelligence</h1>
+        <p class="blog-hero-subtitle">A personal view on AI risk and the need for institutional seriousness</p>
       </div>
     </section>
     <section class="blog-content">
       <article class="blog-post">
         <div class="post-meta">
-          <span class="post-category">STANDARD</span>
-          <span class="post-date">September 2026</span>
+          <span class="post-category">OPINION</span>
+          <span class="post-date">September 30, 2026</span>
         </div>
-        <h2>Introducing ASI-2: The Industry Standard for AI Alignment</h2>
-        <p>Today, we're announcing ASI-2 (Aligned Systems Intelligence Standard 2), a comprehensive framework for certifying that AI systems meet rigorous alignment and security standards.</p>
 
-        <h3>Why ASI-2 Matters</h3>
-        <p>As AI systems become more powerful and autonomous, the industry needs a clear, auditable standard for what it means to be "aligned." Just as SOC-2 certification became the gold standard for data security and privacy, ASI-2 establishes the benchmark for AI systems that prioritize safety, transparency, and human values.</p>
+        <p style="font-style: italic; color: var(--muted); margin-bottom: 2.5rem;">
+          This is a personal view from Jordan Plows, founder of Aligned. It is not a product or policy statement.
+        </p>
 
-        <h3>The ASI-2 Framework</h3>
-        <p>ASI-2 certification requires organizations to demonstrate:</p>
-        <ul>
-          <li><strong>Robust Alignment Testing:</strong> Comprehensive evaluation of model behavior across adversarial scenarios</li>
-          <li><strong>Security Guarantees:</strong> Protection against prompt injection, jailbreaking, and misalignment attacks</li>
-          <li><strong>Transparent Operations:</strong> Clear documentation of training processes, data sources, and decision-making</li>
-          <li><strong>Continuous Validation:</strong> Ongoing monitoring and re-certification as systems evolve</li>
-        </ul>
+        <p>As work toward superintelligence accelerates, I don't believe we are moving fast enough on the measures needed to protect against it as a national-security concern.</p>
 
-        <h3>Setting the Gold Standard</h3>
-        <p>Our mission is to establish ASI-2 as the definitive certification for aligned AI systems. Organizations that achieve ASI-2 certification demonstrate their commitment to building AI that is safe, secure, and aligned with human values.</p>
+        <p>Many respected leaders will tell you AI is overhyped — a distraction, or a waste of resources. There's partial truth there, but it's aimed at the wrong target. The narrow AI we use today — generating audio, video, and text — is genuinely low-risk and often just useful and fun.</p>
 
-        <h3>Who Needs ASI-2?</h3>
-        <p>ASI-2 certification is essential for:</p>
-        <ul>
-          <li><strong>AI Model Developers:</strong> Companies building foundation models, chatbots, or autonomous agents</li>
-          <li><strong>Enterprise AI Teams:</strong> Organizations deploying AI systems that make critical decisions</li>
-          <li><strong>AI Security Vendors:</strong> Companies providing AI safety and alignment tools</li>
-          <li><strong>Regulated Industries:</strong> Healthcare, finance, and government entities using AI</li>
-        </ul>
+        <p>What gets too little attention is a class of risk: systems capable enough to find and exploit vulnerabilities across interconnected infrastructure at a scale and speed no organization today is prepared for. The right posture toward a low-probability, high-consequence risk is serious preparation, not passivity.</p>
 
-        <h3>The Certification Process</h3>
-        <p>Achieving ASI-2 certification involves a rigorous multi-phase evaluation:</p>
-        <p><strong>Phase 1: Documentation Review</strong> - We examine your AI system architecture, training data provenance, model cards, and alignment methodologies.</p>
-        <p><strong>Phase 2: Adversarial Testing</strong> - Our Aligned-1 model conducts comprehensive penetration testing, attempting prompt injection, jailbreaks, data extraction, and misalignment attacks.</p>
-        <p><strong>Phase 3: Continuous Monitoring Setup</strong> - We establish ongoing validation systems to ensure your AI remains aligned as it evolves.</p>
-        <p><strong>Phase 4: Audit & Certification</strong> - Final review and issuance of your ASI-2 certificate and badge.</p>
+        <p>"Pausing" AI is not realistic — the work is global and will continue regardless. The useful question is not whether to stop, but how to make the systems we build and deploy secure, and how to prepare for failure modes we don't yet fully understand.</p>
 
-        <h3>Join the Movement</h3>
-        <p>The future of AI depends on establishing clear standards for alignment and safety. ASI-2 isn't just a certification—it's a commitment to building AI that serves humanity's best interests. Early adopters of ASI-2 will help define what responsible AI development looks like for the next decade.</p>
+        <p>Many organizations will be slow to acknowledge these risks, because taking them seriously is expensive and inconvenient. But a serious incident involving a highly capable system could do real institutional and economic damage.</p>
+
+        <p>This is why I'm building toward a security standard for AI — a clear, auditable baseline that AI companies can be measured against, with recurring independent audits. The nuclear era produced new institutions to manage a new category of risk. Advanced AI will require the same kind of institutional seriousness, and I'd like to help build it.</p>
+
+        <p>I don't have every answer, and reasonable people disagree about timelines and severity. But I'd rather err toward concern and preparation than toward comfort and hindsight.</p>
+
+        <p style="margin-top: 3rem; padding: 1.5rem; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; font-size: 0.9rem; color: var(--muted);">
+          <strong style="color: var(--fg);">Note:</strong> This piece references historical parallels to nuclear-era risk management. Before publication, please verify the Einstein–Szilárd letter (1939) was addressed to President Franklin D. Roosevelt (FDR), not Theodore Roosevelt.
+        </p>
 
         <div class="post-cta">
-          <p>Ready to become ASI-2 certified?</p>
-          <a href="/bounty.html" class="blog-cta-button">Start Your Certification</a>
+          <p>Learn more about our approach to AI security</p>
+          <a href="/asi-1.html" class="blog-cta-button">Explore ASI-1 Standard</a>
         </div>
       </article>
 
       <aside class="blog-sidebar">
         <div class="sidebar-section">
-          <h4>Latest Updates</h4>
-          <div class="update-item">
-            <span class="update-date">Sep 2026</span>
-            <span class="update-title">ASI-2 Framework Launch</span>
-          </div>
-          <div class="update-item">
-            <span class="update-date">Coming Soon</span>
-            <span class="update-title">First Certified Partners</span>
-          </div>
-          <div class="update-item">
-            <span class="update-date">Coming Soon</span>
-            <span class="update-title">Technical Specification v1.0</span>
-          </div>
+          <h4>About the Author</h4>
+          <p style="font-size: 0.9rem; color: var(--muted); line-height: 1.6;">Jordan Plows is the founder of Aligned, building security standards and certification frameworks for advanced AI systems.</p>
         </div>
       </aside>
     </section>
@@ -106,13 +84,13 @@ import"./style-DJ20TOMq.js";var e=document.querySelector(`#app`);e.innerHTML=`
             <li><a href="/blog.html">ASI-2</a></li>
             <li><a href="/trust.html">Security Standards</a></li>
             <li><a href="/trust.html">Alignment Verification</a></li>
-            <li><a href="/trust.html">Continuous Monitoring</a></li>
           </ul>
         </div>
         <div class="footer-column">
           <h4>Resources</h4>
           <ul class="footer-links">
             <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/founders-note.html">Founder's Note</a></li>
             <li><a href="/trust.html">Documentation</a></li>
             <li><a href="/bounty.html">Submit Bounty</a></li>
             <li><a href="mailto:contribute@alignedsafely.com">Contact</a></li>
