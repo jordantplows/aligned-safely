@@ -11,53 +11,45 @@ import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
         <a href="/pricing.html" class="nav-link">Pricing</a>
         <a href="/trust.html" class="nav-link">Trust Center</a>
         <a href="/asi-1.html" class="nav-link">ASI-1</a>
-        <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
+        <a href="https://cal.com/jplows" target="_blank" class="nav-link">Book a Call</a>
       </div>
     </nav>
     <section class="content" style="max-width: 840px; margin: 0 auto; padding: 6rem 3rem;">
       <div class="rule"></div>
-      <h1 style="font-size: 3rem; font-weight: 600; color: #ffffff; margin-bottom: 2rem; letter-spacing: -0.03em;">Privacy Policy</h1>
+      <h1 style="font-size: 3rem; font-weight: 600; color: #ffffff; margin-bottom: 2rem; letter-spacing: -0.03em;">Terms of Service</h1>
       <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Last updated: September 25, 2026</p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">1. Information We Collect</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We collect information you provide directly to us, including name, email address, company information, and details about your security testing requirements.</p>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">1. Acceptance of Terms</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">By accessing and using Aligned's services, you accept and agree to be bound by the terms and provision of this agreement.</p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">2. How We Use Your Information</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We use the information we collect to provide, maintain, and improve our services, to process your requests, and to communicate with you about our services.</p>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">2. Use License</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Permission is granted to temporarily use Aligned's services for personal or commercial evaluation purposes. This is the grant of a license, not a transfer of title.</p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">3. Data Security</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We implement appropriate technical and organizational measures to protect your personal data against unauthorized or unlawful processing, accidental loss, destruction, or damage.</p>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">3. Service Description</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Aligned provides AI security testing, penetration testing, and ASI-2 certification services. We reserve the right to modify or discontinue services at any time.</p>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Our services include but are not limited to: adversarial testing using Aligned-1, prompt injection detection, jailbreak vulnerability assessment, data extraction testing, alignment verification, continuous monitoring, and ASI-2 certification audits.</p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">4. Data Retention</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We retain your information for as long as necessary to provide our services and fulfill the purposes outlined in this policy, unless a longer retention period is required by law.</p>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Test results and vulnerability reports are retained for 7 years to support ongoing security research and ASI-2 certification maintenance. Contact information is retained while you remain an active customer and for 2 years after your last interaction with us.</p>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">4. User Obligations</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">You agree to provide accurate information about your AI systems and testing requirements. You are responsible for ensuring you have proper authorization to submit AI systems for testing. You must not use our services to test systems that violate applicable laws or regulations.</p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">5. Data Sharing</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We do not sell your personal information. We may share data with:</p>
-      <ul style="margin-left: 1.5rem; margin-bottom: 1.5rem;">
-        <li style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 0.5rem;">Service providers who assist in delivering our services</li>
-        <li style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 0.5rem;">Legal authorities when required by law or to protect our rights</li>
-        <li style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 0.5rem;">ASI-2 certification auditors (with your consent)</li>
-      </ul>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">5. Confidentiality</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We treat all information about your AI systems as confidential. Test results, vulnerability reports, and system architecture details will not be shared with third parties without your explicit consent, except as required by law.</p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">6. Your Rights</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">You have the right to access, correct, or delete your personal data. You may also object to or restrict certain processing of your data.</p>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Under GDPR and CCPA, you have additional rights including data portability and the right to opt-out of certain data processing. To exercise these rights, contact us at the email below.</p>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">6. Payment Terms</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Payment is due upon completion of services unless otherwise agreed. For bounty submissions, our money-back guarantee applies if Aligned-1 fails to identify the claimed vulnerability. Refund requests must be submitted within 30 days of service completion.</p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">7. Cookies and Tracking</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We use essential cookies to maintain session state and provide our services. We do not use third-party tracking cookies or advertising networks. Analytics are collected in aggregate and anonymized.</p>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">7. Limitation of Liability</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Aligned shall not be liable for any indirect, incidental, special, consequential or punitive damages resulting from your use of our services. Our total liability shall not exceed the amount paid for the specific service.</p>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We provide testing and certification services but do not guarantee that AI systems are completely secure or aligned. Security and alignment are ongoing processes requiring continuous monitoring.</p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">8. International Data Transfers</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Your data may be processed in countries outside your residence. We ensure appropriate safeguards are in place through standard contractual clauses and compliance with applicable data protection frameworks.</p>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">8. Termination</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We reserve the right to terminate or suspend services for violation of these terms, non-payment, or misuse of our services. Upon termination, you will receive all completed work and reports.</p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">9. Children's Privacy</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Our services are not directed to individuals under 18. We do not knowingly collect personal information from children.</p>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">9. Governing Law</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">These Terms shall be governed by and construed in accordance with applicable laws. Any disputes shall be resolved through binding arbitration.</p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">10. Changes to This Policy</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We may update this Privacy Policy periodically. We will notify you of material changes via email or through our website. Continued use of our services after changes constitutes acceptance of the updated policy.</p>
-
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">11. Contact Us</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">If you have questions about this Privacy Policy, please contact us at <a href="mailto:contribute@alignedsafely.com" style="color: #c0392b; text-decoration: none;">contribute@alignedsafely.com</a></p>
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">10. Contact</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">For questions about these Terms, please contact us at <a href="mailto:contribute@alignedsafely.com" style="color: #c0392b; text-decoration: none;">contribute@alignedsafely.com</a></p>
     </section>
     <footer>
       <div class="footer-main">
@@ -86,7 +78,8 @@ import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
             <li><a href="/blog.html">Blog</a></li>
             <li><a href="/trust.html">Documentation</a></li>
             <li><a href="/bounty.html">Submit Bounty</a></li>
-            <li><a href="mailto:contribute@alignedsafely.com">Contact</a></li>
+            <li><a href="https://cal.com/jplows" target="_blank">Book a Call</a></li>
+            <li><a href="mailto:contribute@alignedsafely.com">Email Us</a></li>
           </ul>
         </div>
         <div class="footer-column">

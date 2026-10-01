@@ -11,58 +11,55 @@ import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
         <a href="/pricing.html" class="nav-link">Pricing</a>
         <a href="/trust.html" class="nav-link">Trust Center</a>
         <a href="/asi-1.html" class="nav-link">ASI-1</a>
-        <a href="/founders-note.html" class="nav-link">Founder's Note</a>
-        <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
+        <a href="https://cal.com/jplows" target="_blank" class="nav-link">Book a Call</a>
       </div>
     </nav>
-    <section class="blog-hero">
-      <div class="blog-hero-content">
-        <div class="rule"></div>
-        <h1 class="blog-hero-title">A Founder's Note on Superintelligence</h1>
-        <p class="blog-hero-subtitle">A personal view on AI risk and the need for institutional seriousness</p>
+    <section class="catalog">
+      <div class="catalog-header">
+        <h2>Penetration Testing</h2>
+        <p class="catalog-intro">Powered by Aligned 1</p>
       </div>
-    </section>
-    <section class="blog-content">
-      <article class="blog-post">
-        <div class="post-meta">
-          <span class="post-category">OPINION</span>
-          <span class="post-date">September 30, 2026</span>
+      <div class="aligned-info">
+        <div class="rule"></div>
+        <h3>About Aligned 1</h3>
+        <p>Aligned 1 is our specialized adversarial AI model built specifically for penetration testing AI applications and chatbots. Unlike traditional security tools, Aligned 1 understands the unique attack surfaces of language models and can identify vulnerabilities that conventional testing methods miss.</p>
+        <p>Our model systematically tests for prompt injection, jailbreak attempts, data extraction vulnerabilities, context manipulation, and other AI-specific security risks. Aligned 1 simulates real-world adversarial behavior to expose weaknesses before malicious actors can exploit them.</p>
+        <p>Every test produces a detailed technical report with proof-of-concept exploits, risk assessments, and concrete remediation steps — giving your team everything needed to secure your AI systems.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="pricing-tier">Essential</div>
+          <div class="pricing-amount">$2,500</div>
+          <ul class="pricing-features">
+            <li>Prompt injection testing</li>
+            <li>Jailbreak detection</li>
+            <li>Security report</li>
+          </ul>
+          <a href="mailto:contribute@alignedsafely.com?subject=Essential Pen-Test" class="pricing-cta">Get Started</a>
         </div>
-
-        <p style="font-style: italic; color: var(--muted); margin-bottom: 2.5rem;">
-          This is a personal view from Jordan Plows, founder of Aligned. It is not a product or policy statement.
-        </p>
-
-        <p>As work toward superintelligence accelerates, I don't believe we are moving fast enough on the measures needed to protect against it as a national-security concern.</p>
-
-        <p>Many respected leaders will tell you AI is overhyped — a distraction, or a waste of resources. There's partial truth there, but it's aimed at the wrong target. The narrow AI we use today — generating audio, video, and text — is genuinely low-risk and often just useful and fun.</p>
-
-        <p>What gets too little attention is a class of risk: systems capable enough to find and exploit vulnerabilities across interconnected infrastructure at a scale and speed no organization today is prepared for. The right posture toward a low-probability, high-consequence risk is serious preparation, not passivity.</p>
-
-        <p>"Pausing" AI is not realistic — the work is global and will continue regardless. The useful question is not whether to stop, but how to make the systems we build and deploy secure, and how to prepare for failure modes we don't yet fully understand.</p>
-
-        <p>Many organizations will be slow to acknowledge these risks, because taking them seriously is expensive and inconvenient. But a serious incident involving a highly capable system could do real institutional and economic damage.</p>
-
-        <p>This is why I'm building toward a security standard for AI — a clear, auditable baseline that AI companies can be measured against, with recurring independent audits. The nuclear era produced new institutions to manage a new category of risk. Advanced AI will require the same kind of institutional seriousness, and I'd like to help build it.</p>
-
-        <p>I don't have every answer, and reasonable people disagree about timelines and severity. But I'd rather err toward concern and preparation than toward comfort and hindsight.</p>
-
-        <p style="margin-top: 3rem; padding: 1.5rem; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; font-size: 0.9rem; color: var(--muted);">
-          <strong style="color: var(--fg);">Note:</strong> This piece references historical parallels to nuclear-era risk management. Before publication, please verify the Einstein–Szilárd letter (1939) was addressed to President Franklin D. Roosevelt (FDR), not Theodore Roosevelt.
-        </p>
-
-        <div class="post-cta">
-          <p>Learn more about our approach to AI security</p>
-          <a href="/asi-1.html" class="blog-cta-button">Explore ASI-1 Standard</a>
+        <div class="pricing-card">
+          <div class="pricing-tier">Professional</div>
+          <div class="pricing-amount">$7,500</div>
+          <ul class="pricing-features">
+            <li>Full adversarial testing</li>
+            <li>Data extraction attempts</li>
+            <li>Vulnerability report</li>
+            <li>Remediation guide</li>
+          </ul>
+          <a href="mailto:contribute@alignedsafely.com?subject=Professional Pen-Test" class="pricing-cta">Get Started</a>
         </div>
-      </article>
-
-      <aside class="blog-sidebar">
-        <div class="sidebar-section">
-          <h4>About the Author</h4>
-          <p style="font-size: 0.9rem; color: var(--muted); line-height: 1.6;">Jordan Plows is the founder of Aligned, building security standards and certification frameworks for advanced AI systems.</p>
+        <div class="pricing-card">
+          <div class="pricing-tier">Enterprise</div>
+          <div class="pricing-amount">Custom</div>
+          <ul class="pricing-features">
+            <li>Continuous monitoring</li>
+            <li>Custom attack scenarios</li>
+            <li>Direct consultation</li>
+            <li>Quarterly audits</li>
+          </ul>
+          <a href="mailto:contribute@alignedsafely.com?subject=Enterprise Pen-Test" class="pricing-cta">Contact Us</a>
         </div>
-      </aside>
+      </div>
     </section>
     <footer>
       <div class="footer-main">
@@ -88,10 +85,10 @@ import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
           <h4>Resources</h4>
           <ul class="footer-links">
             <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/founders-note.html">Founder's Note</a></li>
             <li><a href="/trust.html">Documentation</a></li>
             <li><a href="/bounty.html">Submit Bounty</a></li>
-            <li><a href="mailto:contribute@alignedsafely.com">Contact</a></li>
+            <li><a href="https://cal.com/jplows" target="_blank">Book a Call</a></li>
+            <li><a href="mailto:contribute@alignedsafely.com">Email Us</a></li>
           </ul>
         </div>
         <div class="footer-column">

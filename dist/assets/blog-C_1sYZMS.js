@@ -11,70 +11,83 @@ import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
         <a href="/pricing.html" class="nav-link">Pricing</a>
         <a href="/trust.html" class="nav-link">Trust Center</a>
         <a href="/asi-1.html" class="nav-link">ASI-1</a>
-        <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
+        <a href="/founders-note.html" class="nav-link">Founder's Note</a>
+        <a href="https://cal.com/jplows" target="_blank" class="nav-link">Book a Call</a>
       </div>
     </nav>
-    <section class="trust-hero">
-      <div class="trust-container">
+    <section class="blog-hero">
+      <div class="blog-hero-content">
         <div class="rule"></div>
-        <h1 class="trust-title">Trust Center</h1>
-        <p class="trust-subtitle">Building the gold standard for AI alignment and security certification</p>
+        <h1 class="blog-hero-title">ASI-2</h1>
+        <p class="blog-hero-subtitle">The new standard for aligned artificial intelligence systems</p>
       </div>
     </section>
-    <section class="trust-content">
-      <div class="trust-section">
-        <div class="badge-showcase">
-          <div class="badge-container">
-            <div class="asi-badge">
-              <div class="badge-inner">
-                <div class="badge-icon">
-                  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="2"/>
-                    <path d="M 30 50 L 45 65 L 70 35" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
-                </div>
-                <div class="badge-text">ASI-2</div>
-                <div class="badge-subtext">CERTIFIED</div>
-              </div>
-            </div>
-          </div>
-          <p class="badge-description">The ASI-2 certification badge represents the highest standard of AI alignment and security in the industry.</p>
+    <section class="blog-content">
+      <article class="blog-post">
+        <div class="post-meta">
+          <span class="post-category">STANDARD</span>
+          <span class="post-date">September 2026</span>
         </div>
-      </div>
+        <h2>Introducing ASI-2: The Industry Standard for AI Alignment</h2>
+        <p>Today, we're announcing ASI-2 (Aligned Systems Intelligence Standard 2), a comprehensive framework for certifying that AI systems meet rigorous alignment and security standards.</p>
 
-      <div class="trust-section">
-        <h2>What is ASI-2?</h2>
-        <p>ASI-2 (Aligned Systems Intelligence Standard 2) is a comprehensive certification program that validates AI systems and organizations meet rigorous standards for alignment and security.</p>
-        <p>Similar to how SOC-2 became the industry standard for security and data privacy, ASI-2 establishes the benchmark for aligned AI systems—ensuring that AI development prioritizes safety, transparency, and human values.</p>
-      </div>
+        <h3>Why ASI-2 Matters</h3>
+        <p>As AI systems become more powerful and autonomous, the industry needs a clear, auditable standard for what it means to be "aligned." Just as SOC-2 certification became the gold standard for data security and privacy, ASI-2 establishes the benchmark for AI systems that prioritize safety, transparency, and human values.</p>
 
-      <div class="trust-section">
-        <h2>Certification Standards</h2>
-        <div class="standards-grid">
-          <div class="standard-card">
-            <h3>Alignment Verification</h3>
-            <p>Rigorous testing to ensure AI systems operate in accordance with stated objectives and human values.</p>
+        <h3>The ASI-2 Framework</h3>
+        <p>ASI-2 certification requires organizations to demonstrate:</p>
+        <ul>
+          <li><strong>Robust Alignment Testing:</strong> Comprehensive evaluation of model behavior across adversarial scenarios</li>
+          <li><strong>Security Guarantees:</strong> Protection against prompt injection, jailbreaking, and misalignment attacks</li>
+          <li><strong>Transparent Operations:</strong> Clear documentation of training processes, data sources, and decision-making</li>
+          <li><strong>Continuous Validation:</strong> Ongoing monitoring and re-certification as systems evolve</li>
+        </ul>
+
+        <h3>Setting the Gold Standard</h3>
+        <p>Our mission is to establish ASI-2 as the definitive certification for aligned AI systems. Organizations that achieve ASI-2 certification demonstrate their commitment to building AI that is safe, secure, and aligned with human values.</p>
+
+        <h3>Who Needs ASI-2?</h3>
+        <p>ASI-2 certification is essential for:</p>
+        <ul>
+          <li><strong>AI Model Developers:</strong> Companies building foundation models, chatbots, or autonomous agents</li>
+          <li><strong>Enterprise AI Teams:</strong> Organizations deploying AI systems that make critical decisions</li>
+          <li><strong>AI Security Vendors:</strong> Companies providing AI safety and alignment tools</li>
+          <li><strong>Regulated Industries:</strong> Healthcare, finance, and government entities using AI</li>
+        </ul>
+
+        <h3>The Certification Process</h3>
+        <p>Achieving ASI-2 certification involves a rigorous multi-phase evaluation:</p>
+        <p><strong>Phase 1: Documentation Review</strong> - We examine your AI system architecture, training data provenance, model cards, and alignment methodologies.</p>
+        <p><strong>Phase 2: Adversarial Testing</strong> - Our Aligned-1 model conducts comprehensive penetration testing, attempting prompt injection, jailbreaks, data extraction, and misalignment attacks.</p>
+        <p><strong>Phase 3: Continuous Monitoring Setup</strong> - We establish ongoing validation systems to ensure your AI remains aligned as it evolves.</p>
+        <p><strong>Phase 4: Audit & Certification</strong> - Final review and issuance of your ASI-2 certificate and badge.</p>
+
+        <h3>Join the Movement</h3>
+        <p>The future of AI depends on establishing clear standards for alignment and safety. ASI-2 isn't just a certification—it's a commitment to building AI that serves humanity's best interests. Early adopters of ASI-2 will help define what responsible AI development looks like for the next decade.</p>
+
+        <div class="post-cta">
+          <p>Ready to become ASI-2 certified?</p>
+          <a href="/bounty.html" class="blog-cta-button">Start Your Certification</a>
+        </div>
+      </article>
+
+      <aside class="blog-sidebar">
+        <div class="sidebar-section">
+          <h4>Latest Updates</h4>
+          <div class="update-item">
+            <span class="update-date">Sep 2026</span>
+            <span class="update-title">ASI-2 Framework Launch</span>
           </div>
-          <div class="standard-card">
-            <h3>Security Framework</h3>
-            <p>Comprehensive security measures protecting against adversarial attacks and misalignment scenarios.</p>
+          <div class="update-item">
+            <span class="update-date">Coming Soon</span>
+            <span class="update-title">First Certified Partners</span>
           </div>
-          <div class="standard-card">
-            <h3>Transparency Standards</h3>
-            <p>Clear documentation of model behavior, training data sources, and decision-making processes.</p>
-          </div>
-          <div class="standard-card">
-            <h3>Continuous Monitoring</h3>
-            <p>Ongoing assessment and validation to maintain certification as systems evolve.</p>
+          <div class="update-item">
+            <span class="update-date">Coming Soon</span>
+            <span class="update-title">Technical Specification v1.0</span>
           </div>
         </div>
-      </div>
-
-      <div class="trust-section">
-        <h2>Get ASI-2 Certified</h2>
-        <p>Organizations building AI systems can apply for ASI-2 certification to demonstrate their commitment to the highest standards of alignment and security.</p>
-        <a href="/bounty.html" class="trust-cta">Apply for Certification</a>
-      </div>
+      </aside>
     </section>
     <footer>
       <div class="footer-main">
@@ -101,9 +114,11 @@ import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
           <h4>Resources</h4>
           <ul class="footer-links">
             <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/founders-note.html">Founder's Note</a></li>
             <li><a href="/trust.html">Documentation</a></li>
             <li><a href="/bounty.html">Submit Bounty</a></li>
-            <li><a href="mailto:contribute@alignedsafely.com">Contact</a></li>
+            <li><a href="https://cal.com/jplows" target="_blank">Book a Call</a></li>
+            <li><a href="mailto:contribute@alignedsafely.com">Email Us</a></li>
           </ul>
         </div>
         <div class="footer-column">

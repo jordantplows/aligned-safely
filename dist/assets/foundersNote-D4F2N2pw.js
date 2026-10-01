@@ -11,45 +11,58 @@ import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
         <a href="/pricing.html" class="nav-link">Pricing</a>
         <a href="/trust.html" class="nav-link">Trust Center</a>
         <a href="/asi-1.html" class="nav-link">ASI-1</a>
-        <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
+        <a href="/founders-note.html" class="nav-link">Founder's Note</a>
+        <a href="https://cal.com/jplows" target="_blank" class="nav-link">Book a Call</a>
       </div>
     </nav>
-    <section class="content" style="max-width: 840px; margin: 0 auto; padding: 6rem 3rem;">
-      <div class="rule"></div>
-      <h1 style="font-size: 3rem; font-weight: 600; color: #ffffff; margin-bottom: 2rem; letter-spacing: -0.03em;">Terms of Service</h1>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Last updated: September 25, 2026</p>
+    <section class="blog-hero">
+      <div class="blog-hero-content">
+        <div class="rule"></div>
+        <h1 class="blog-hero-title">A Founder's Note on Superintelligence</h1>
+        <p class="blog-hero-subtitle">A personal view on AI risk and the need for institutional seriousness</p>
+      </div>
+    </section>
+    <section class="blog-content">
+      <article class="blog-post">
+        <div class="post-meta">
+          <span class="post-category">OPINION</span>
+          <span class="post-date">September 30, 2026</span>
+        </div>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">1. Acceptance of Terms</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">By accessing and using Aligned's services, you accept and agree to be bound by the terms and provision of this agreement.</p>
+        <p style="font-style: italic; color: var(--muted); margin-bottom: 2.5rem;">
+          This is a personal view from Jordan Plows, founder of Aligned. It is not a product or policy statement.
+        </p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">2. Use License</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Permission is granted to temporarily use Aligned's services for personal or commercial evaluation purposes. This is the grant of a license, not a transfer of title.</p>
+        <p>As work toward superintelligence accelerates, I don't believe we are moving fast enough on the measures needed to protect against it as a national-security concern.</p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">3. Service Description</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Aligned provides AI security testing, penetration testing, and ASI-2 certification services. We reserve the right to modify or discontinue services at any time.</p>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Our services include but are not limited to: adversarial testing using Aligned-1, prompt injection detection, jailbreak vulnerability assessment, data extraction testing, alignment verification, continuous monitoring, and ASI-2 certification audits.</p>
+        <p>Many respected leaders will tell you AI is overhyped — a distraction, or a waste of resources. There's partial truth there, but it's aimed at the wrong target. The narrow AI we use today — generating audio, video, and text — is genuinely low-risk and often just useful and fun.</p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">4. User Obligations</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">You agree to provide accurate information about your AI systems and testing requirements. You are responsible for ensuring you have proper authorization to submit AI systems for testing. You must not use our services to test systems that violate applicable laws or regulations.</p>
+        <p>What gets too little attention is a class of risk: systems capable enough to find and exploit vulnerabilities across interconnected infrastructure at a scale and speed no organization today is prepared for. The right posture toward a low-probability, high-consequence risk is serious preparation, not passivity.</p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">5. Confidentiality</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We treat all information about your AI systems as confidential. Test results, vulnerability reports, and system architecture details will not be shared with third parties without your explicit consent, except as required by law.</p>
+        <p>"Pausing" AI is not realistic — the work is global and will continue regardless. The useful question is not whether to stop, but how to make the systems we build and deploy secure, and how to prepare for failure modes we don't yet fully understand.</p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">6. Payment Terms</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Payment is due upon completion of services unless otherwise agreed. For bounty submissions, our money-back guarantee applies if Aligned-1 fails to identify the claimed vulnerability. Refund requests must be submitted within 30 days of service completion.</p>
+        <p>Many organizations will be slow to acknowledge these risks, because taking them seriously is expensive and inconvenient. But a serious incident involving a highly capable system could do real institutional and economic damage.</p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">7. Limitation of Liability</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Aligned shall not be liable for any indirect, incidental, special, consequential or punitive damages resulting from your use of our services. Our total liability shall not exceed the amount paid for the specific service.</p>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We provide testing and certification services but do not guarantee that AI systems are completely secure or aligned. Security and alignment are ongoing processes requiring continuous monitoring.</p>
+        <p>This is why I'm building toward a security standard for AI — a clear, auditable baseline that AI companies can be measured against, with recurring independent audits. The nuclear era produced new institutions to manage a new category of risk. Advanced AI will require the same kind of institutional seriousness, and I'd like to help build it.</p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">8. Termination</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We reserve the right to terminate or suspend services for violation of these terms, non-payment, or misuse of our services. Upon termination, you will receive all completed work and reports.</p>
+        <p>I don't have every answer, and reasonable people disagree about timelines and severity. But I'd rather err toward concern and preparation than toward comfort and hindsight.</p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">9. Governing Law</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">These Terms shall be governed by and construed in accordance with applicable laws. Any disputes shall be resolved through binding arbitration.</p>
+        <p style="margin-top: 3rem; padding: 1.5rem; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; font-size: 0.9rem; color: var(--muted);">
+          <strong style="color: var(--fg);">Note:</strong> This piece references historical parallels to nuclear-era risk management. Before publication, please verify the Einstein–Szilárd letter (1939) was addressed to President Franklin D. Roosevelt (FDR), not Theodore Roosevelt.
+        </p>
 
-      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">10. Contact</h2>
-      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">For questions about these Terms, please contact us at <a href="mailto:contribute@alignedsafely.com" style="color: #c0392b; text-decoration: none;">contribute@alignedsafely.com</a></p>
+        <div class="post-cta">
+          <p>Learn more about our approach to AI security</p>
+          <a href="/asi-1.html" class="blog-cta-button">Explore ASI-1 Standard</a>
+        </div>
+      </article>
+
+      <aside class="blog-sidebar">
+        <div class="sidebar-section">
+          <h4>About the Author</h4>
+          <p style="font-size: 0.9rem; color: var(--muted); line-height: 1.6;">Jordan Plows is the founder of Aligned, building security standards and certification frameworks for advanced AI systems.</p>
+        </div>
+      </aside>
     </section>
     <footer>
       <div class="footer-main">
@@ -69,16 +82,17 @@ import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
             <li><a href="/blog.html">ASI-2</a></li>
             <li><a href="/trust.html">Security Standards</a></li>
             <li><a href="/trust.html">Alignment Verification</a></li>
-            <li><a href="/trust.html">Continuous Monitoring</a></li>
           </ul>
         </div>
         <div class="footer-column">
           <h4>Resources</h4>
           <ul class="footer-links">
             <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/founders-note.html">Founder's Note</a></li>
             <li><a href="/trust.html">Documentation</a></li>
             <li><a href="/bounty.html">Submit Bounty</a></li>
-            <li><a href="mailto:contribute@alignedsafely.com">Contact</a></li>
+            <li><a href="https://cal.com/jplows" target="_blank">Book a Call</a></li>
+            <li><a href="mailto:contribute@alignedsafely.com">Email Us</a></li>
           </ul>
         </div>
         <div class="footer-column">

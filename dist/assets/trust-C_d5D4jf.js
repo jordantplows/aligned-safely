@@ -11,43 +11,70 @@ import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
         <a href="/pricing.html" class="nav-link">Pricing</a>
         <a href="/trust.html" class="nav-link">Trust Center</a>
         <a href="/asi-1.html" class="nav-link">ASI-1</a>
-        <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
+        <a href="https://cal.com/jplows" target="_blank" class="nav-link">Book a Call</a>
       </div>
     </nav>
-    <section class="form-container">
-      <div class="form-header">
-        <h2>Submit a Bounty</h2>
-        <p class="form-intro">Tell us about the AI security issue you need tested. If Aligned-1 doesn't solve it, you get your money back.</p>
+    <section class="trust-hero">
+      <div class="trust-container">
+        <div class="rule"></div>
+        <h1 class="trust-title">Trust Center</h1>
+        <p class="trust-subtitle">Building the gold standard for AI alignment and security certification</p>
       </div>
-      <form class="bounty-form" id="bountyForm">
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required>
+    </section>
+    <section class="trust-content">
+      <div class="trust-section">
+        <div class="badge-showcase">
+          <div class="badge-container">
+            <div class="asi-badge">
+              <div class="badge-inner">
+                <div class="badge-icon">
+                  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <path d="M 30 50 L 45 65 L 70 35" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="badge-text">ASI-2</div>
+                <div class="badge-subtext">CERTIFIED</div>
+              </div>
+            </div>
+          </div>
+          <p class="badge-description">The ASI-2 certification badge represents the highest standard of AI alignment and security in the industry.</p>
         </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="trust-section">
+        <h2>What is ASI-2?</h2>
+        <p>ASI-2 (Aligned Systems Intelligence Standard 2) is a comprehensive certification program that validates AI systems and organizations meet rigorous standards for alignment and security.</p>
+        <p>Similar to how SOC-2 became the industry standard for security and data privacy, ASI-2 establishes the benchmark for aligned AI systems—ensuring that AI development prioritizes safety, transparency, and human values.</p>
+      </div>
+
+      <div class="trust-section">
+        <h2>Certification Standards</h2>
+        <div class="standards-grid">
+          <div class="standard-card">
+            <h3>Alignment Verification</h3>
+            <p>Rigorous testing to ensure AI systems operate in accordance with stated objectives and human values.</p>
+          </div>
+          <div class="standard-card">
+            <h3>Security Framework</h3>
+            <p>Comprehensive security measures protecting against adversarial attacks and misalignment scenarios.</p>
+          </div>
+          <div class="standard-card">
+            <h3>Transparency Standards</h3>
+            <p>Clear documentation of model behavior, training data sources, and decision-making processes.</p>
+          </div>
+          <div class="standard-card">
+            <h3>Continuous Monitoring</h3>
+            <p>Ongoing assessment and validation to maintain certification as systems evolve.</p>
+          </div>
         </div>
-        <div class="form-group">
-          <label for="company">Company (Optional)</label>
-          <input type="text" id="company" name="company">
-        </div>
-        <div class="form-group">
-          <label for="issue">Describe the Issue</label>
-          <textarea id="issue" name="issue" rows="6" placeholder="What vulnerability or security concern do you need tested?" required></textarea>
-        </div>
-        <div class="form-group">
-          <label for="details">Additional Details</label>
-          <textarea id="details" name="details" rows="4" placeholder="Any specific attack vectors, context, or requirements we should know about?"></textarea>
-        </div>
-        <div class="calendar-section">
-          <div class="rule"></div>
-          <h3>Schedule a Call</h3>
-          <p>Book a 30-minute consultation to discuss your bounty submission and next steps.</p>
-          <a href="https://cal.com" target="_blank" class="calendar-link">Schedule on Calendar →</a>
-        </div>
-        <button type="submit" class="form-submit">Submit Bounty</button>
-      </form>
+      </div>
+
+      <div class="trust-section">
+        <h2>Get ASI-2 Certified</h2>
+        <p>Organizations building AI systems can apply for ASI-2 certification to demonstrate their commitment to the highest standards of alignment and security.</p>
+        <a href="/bounty.html" class="trust-cta">Apply for Certification</a>
+      </div>
     </section>
     <footer>
       <div class="footer-main">
@@ -76,7 +103,8 @@ import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
             <li><a href="/blog.html">Blog</a></li>
             <li><a href="/trust.html">Documentation</a></li>
             <li><a href="/bounty.html">Submit Bounty</a></li>
-            <li><a href="mailto:contribute@alignedsafely.com">Contact</a></li>
+            <li><a href="https://cal.com/jplows" target="_blank">Book a Call</a></li>
+            <li><a href="mailto:contribute@alignedsafely.com">Email Us</a></li>
           </ul>
         </div>
         <div class="footer-column">
@@ -143,4 +171,4 @@ import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
       </div>
     </footer>
   </div>
-`;var t=document.getElementById(`bountyForm`),n=t.querySelector(`button[type="submit"]`);t.addEventListener(`submit`,async e=>{e.preventDefault();let r=new FormData(t),i={name:r.get(`name`),email:r.get(`email`),company:r.get(`company`),issue:r.get(`issue`),details:r.get(`details`)},a=n.textContent;n.textContent=`Submitting...`,n.disabled=!0;try{if((await fetch(`https://formspree.io/f/YOUR_FORM_ID`,{method:`POST`,headers:{"Content-Type":`application/json`},body:JSON.stringify(i)})).ok)n.textContent=`✓ Submitted`,n.style.background=`#27ae60`,t.reset(),setTimeout(()=>{n.textContent=a,n.style.background=``,n.disabled=!1},3e3);else throw Error(`Submission failed`)}catch{n.textContent=`Failed - Try Again`,n.style.background=`#c0392b`,setTimeout(()=>{n.textContent=a,n.style.background=``,n.disabled=!1},3e3)}});
+`;
