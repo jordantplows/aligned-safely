@@ -6,6 +6,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(import.meta.dirname, 'index.html'),
+        audit: resolve(import.meta.dirname, 'audit.html'),
         pricing: resolve(import.meta.dirname, 'pricing.html'),
         bounty: resolve(import.meta.dirname, 'bounty.html'),
         bounties: resolve(import.meta.dirname, 'bounties.html'),

@@ -1,6 +1,4 @@
-import "./style.css";
-const app = document.querySelector("#app");
-app.innerHTML = `
+import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
   <div class="page">
     <div class="banner">
       <span class="banner-text">🔒 Enterprise AI Security Audits • $10K Fixed Price • 2-Week Delivery</span>
