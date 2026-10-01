@@ -1,7 +1,5 @@
 import "./style.css";
-
-const app = document.querySelector<HTMLDivElement>("#app")!;
-
+const app = document.querySelector("#app");
 app.innerHTML = `
   <div class="page">
     <div class="banner">
@@ -18,52 +16,42 @@ app.innerHTML = `
         <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
       </div>
     </nav>
-    <section class="catalog">
-      <div class="catalog-header">
-        <h2>Penetration Testing</h2>
-        <p class="catalog-intro">Powered by Aligned 1</p>
-      </div>
-      <div class="aligned-info">
-        <div class="rule"></div>
-        <h3>About Aligned 1</h3>
-        <p>Aligned 1 is our specialized adversarial AI model built specifically for penetration testing AI applications and chatbots. Unlike traditional security tools, Aligned 1 understands the unique attack surfaces of language models and can identify vulnerabilities that conventional testing methods miss.</p>
-        <p>Our model systematically tests for prompt injection, jailbreak attempts, data extraction vulnerabilities, context manipulation, and other AI-specific security risks. Aligned 1 simulates real-world adversarial behavior to expose weaknesses before malicious actors can exploit them.</p>
-        <p>Every test produces a detailed technical report with proof-of-concept exploits, risk assessments, and concrete remediation steps — giving your team everything needed to secure your AI systems.</p>
-      </div>
-      <div class="pricing-grid">
-        <div class="pricing-card">
-          <div class="pricing-tier">Essential</div>
-          <div class="pricing-amount">$2,500</div>
-          <ul class="pricing-features">
-            <li>Prompt injection testing</li>
-            <li>Jailbreak detection</li>
-            <li>Security report</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Essential Pen-Test" class="pricing-cta">Get Started</a>
-        </div>
-        <div class="pricing-card">
-          <div class="pricing-tier">Professional</div>
-          <div class="pricing-amount">$7,500</div>
-          <ul class="pricing-features">
-            <li>Full adversarial testing</li>
-            <li>Data extraction attempts</li>
-            <li>Vulnerability report</li>
-            <li>Remediation guide</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Professional Pen-Test" class="pricing-cta">Get Started</a>
-        </div>
-        <div class="pricing-card">
-          <div class="pricing-tier">Enterprise</div>
-          <div class="pricing-amount">Custom</div>
-          <ul class="pricing-features">
-            <li>Continuous monitoring</li>
-            <li>Custom attack scenarios</li>
-            <li>Direct consultation</li>
-            <li>Quarterly audits</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Enterprise Pen-Test" class="pricing-cta">Contact Us</a>
-        </div>
-      </div>
+    <section class="content" style="max-width: 840px; margin: 0 auto; padding: 6rem 3rem;">
+      <div class="rule"></div>
+      <h1 style="font-size: 3rem; font-weight: 600; color: #ffffff; margin-bottom: 2rem; letter-spacing: -0.03em;">Terms of Service</h1>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Last updated: September 25, 2026</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">1. Acceptance of Terms</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">By accessing and using Aligned's services, you accept and agree to be bound by the terms and provision of this agreement.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">2. Use License</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Permission is granted to temporarily use Aligned's services for personal or commercial evaluation purposes. This is the grant of a license, not a transfer of title.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">3. Service Description</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Aligned provides AI security testing, penetration testing, and ASI-2 certification services. We reserve the right to modify or discontinue services at any time.</p>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Our services include but are not limited to: adversarial testing using Aligned-1, prompt injection detection, jailbreak vulnerability assessment, data extraction testing, alignment verification, continuous monitoring, and ASI-2 certification audits.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">4. User Obligations</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">You agree to provide accurate information about your AI systems and testing requirements. You are responsible for ensuring you have proper authorization to submit AI systems for testing. You must not use our services to test systems that violate applicable laws or regulations.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">5. Confidentiality</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We treat all information about your AI systems as confidential. Test results, vulnerability reports, and system architecture details will not be shared with third parties without your explicit consent, except as required by law.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">6. Payment Terms</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Payment is due upon completion of services unless otherwise agreed. For bounty submissions, our money-back guarantee applies if Aligned-1 fails to identify the claimed vulnerability. Refund requests must be submitted within 30 days of service completion.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">7. Limitation of Liability</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Aligned shall not be liable for any indirect, incidental, special, consequential or punitive damages resulting from your use of our services. Our total liability shall not exceed the amount paid for the specific service.</p>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We provide testing and certification services but do not guarantee that AI systems are completely secure or aligned. Security and alignment are ongoing processes requiring continuous monitoring.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">8. Termination</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We reserve the right to terminate or suspend services for violation of these terms, non-payment, or misuse of our services. Upon termination, you will receive all completed work and reports.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">9. Governing Law</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">These Terms shall be governed by and construed in accordance with applicable laws. Any disputes shall be resolved through binding arbitration.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">10. Contact</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">For questions about these Terms, please contact us at <a href="mailto:contribute@alignedsafely.com" style="color: #c0392b; text-decoration: none;">contribute@alignedsafely.com</a></p>
     </section>
     <footer>
       <div class="footer-main">
@@ -83,6 +71,7 @@ app.innerHTML = `
             <li><a href="/blog.html">ASI-2</a></li>
             <li><a href="/trust.html">Security Standards</a></li>
             <li><a href="/trust.html">Alignment Verification</a></li>
+            <li><a href="/trust.html">Continuous Monitoring</a></li>
           </ul>
         </div>
         <div class="footer-column">

@@ -1,7 +1,5 @@
 import "./style.css";
-
-const app = document.querySelector<HTMLDivElement>("#app")!;
-
+const app = document.querySelector("#app");
 app.innerHTML = `
   <div class="page">
     <div class="banner">
@@ -18,52 +16,79 @@ app.innerHTML = `
         <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
       </div>
     </nav>
-    <section class="catalog">
-      <div class="catalog-header">
-        <h2>Penetration Testing</h2>
-        <p class="catalog-intro">Powered by Aligned 1</p>
-      </div>
-      <div class="aligned-info">
+    <section class="blog-hero">
+      <div class="blog-hero-content">
         <div class="rule"></div>
-        <h3>About Aligned 1</h3>
-        <p>Aligned 1 is our specialized adversarial AI model built specifically for penetration testing AI applications and chatbots. Unlike traditional security tools, Aligned 1 understands the unique attack surfaces of language models and can identify vulnerabilities that conventional testing methods miss.</p>
-        <p>Our model systematically tests for prompt injection, jailbreak attempts, data extraction vulnerabilities, context manipulation, and other AI-specific security risks. Aligned 1 simulates real-world adversarial behavior to expose weaknesses before malicious actors can exploit them.</p>
-        <p>Every test produces a detailed technical report with proof-of-concept exploits, risk assessments, and concrete remediation steps — giving your team everything needed to secure your AI systems.</p>
+        <h1 class="blog-hero-title">ASI-2</h1>
+        <p class="blog-hero-subtitle">The new standard for aligned artificial intelligence systems</p>
       </div>
-      <div class="pricing-grid">
-        <div class="pricing-card">
-          <div class="pricing-tier">Essential</div>
-          <div class="pricing-amount">$2,500</div>
-          <ul class="pricing-features">
-            <li>Prompt injection testing</li>
-            <li>Jailbreak detection</li>
-            <li>Security report</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Essential Pen-Test" class="pricing-cta">Get Started</a>
+    </section>
+    <section class="blog-content">
+      <article class="blog-post">
+        <div class="post-meta">
+          <span class="post-category">STANDARD</span>
+          <span class="post-date">September 2026</span>
         </div>
-        <div class="pricing-card">
-          <div class="pricing-tier">Professional</div>
-          <div class="pricing-amount">$7,500</div>
-          <ul class="pricing-features">
-            <li>Full adversarial testing</li>
-            <li>Data extraction attempts</li>
-            <li>Vulnerability report</li>
-            <li>Remediation guide</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Professional Pen-Test" class="pricing-cta">Get Started</a>
+        <h2>Introducing ASI-2: The Industry Standard for AI Alignment</h2>
+        <p>Today, we're announcing ASI-2 (Aligned Systems Intelligence Standard 2), a comprehensive framework for certifying that AI systems meet rigorous alignment and security standards.</p>
+
+        <h3>Why ASI-2 Matters</h3>
+        <p>As AI systems become more powerful and autonomous, the industry needs a clear, auditable standard for what it means to be "aligned." Just as SOC-2 certification became the gold standard for data security and privacy, ASI-2 establishes the benchmark for AI systems that prioritize safety, transparency, and human values.</p>
+
+        <h3>The ASI-2 Framework</h3>
+        <p>ASI-2 certification requires organizations to demonstrate:</p>
+        <ul>
+          <li><strong>Robust Alignment Testing:</strong> Comprehensive evaluation of model behavior across adversarial scenarios</li>
+          <li><strong>Security Guarantees:</strong> Protection against prompt injection, jailbreaking, and misalignment attacks</li>
+          <li><strong>Transparent Operations:</strong> Clear documentation of training processes, data sources, and decision-making</li>
+          <li><strong>Continuous Validation:</strong> Ongoing monitoring and re-certification as systems evolve</li>
+        </ul>
+
+        <h3>Setting the Gold Standard</h3>
+        <p>Our mission is to establish ASI-2 as the definitive certification for aligned AI systems. Organizations that achieve ASI-2 certification demonstrate their commitment to building AI that is safe, secure, and aligned with human values.</p>
+
+        <h3>Who Needs ASI-2?</h3>
+        <p>ASI-2 certification is essential for:</p>
+        <ul>
+          <li><strong>AI Model Developers:</strong> Companies building foundation models, chatbots, or autonomous agents</li>
+          <li><strong>Enterprise AI Teams:</strong> Organizations deploying AI systems that make critical decisions</li>
+          <li><strong>AI Security Vendors:</strong> Companies providing AI safety and alignment tools</li>
+          <li><strong>Regulated Industries:</strong> Healthcare, finance, and government entities using AI</li>
+        </ul>
+
+        <h3>The Certification Process</h3>
+        <p>Achieving ASI-2 certification involves a rigorous multi-phase evaluation:</p>
+        <p><strong>Phase 1: Documentation Review</strong> - We examine your AI system architecture, training data provenance, model cards, and alignment methodologies.</p>
+        <p><strong>Phase 2: Adversarial Testing</strong> - Our Aligned-1 model conducts comprehensive penetration testing, attempting prompt injection, jailbreaks, data extraction, and misalignment attacks.</p>
+        <p><strong>Phase 3: Continuous Monitoring Setup</strong> - We establish ongoing validation systems to ensure your AI remains aligned as it evolves.</p>
+        <p><strong>Phase 4: Audit & Certification</strong> - Final review and issuance of your ASI-2 certificate and badge.</p>
+
+        <h3>Join the Movement</h3>
+        <p>The future of AI depends on establishing clear standards for alignment and safety. ASI-2 isn't just a certification—it's a commitment to building AI that serves humanity's best interests. Early adopters of ASI-2 will help define what responsible AI development looks like for the next decade.</p>
+
+        <div class="post-cta">
+          <p>Ready to become ASI-2 certified?</p>
+          <a href="/bounty.html" class="blog-cta-button">Start Your Certification</a>
         </div>
-        <div class="pricing-card">
-          <div class="pricing-tier">Enterprise</div>
-          <div class="pricing-amount">Custom</div>
-          <ul class="pricing-features">
-            <li>Continuous monitoring</li>
-            <li>Custom attack scenarios</li>
-            <li>Direct consultation</li>
-            <li>Quarterly audits</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Enterprise Pen-Test" class="pricing-cta">Contact Us</a>
+      </article>
+
+      <aside class="blog-sidebar">
+        <div class="sidebar-section">
+          <h4>Latest Updates</h4>
+          <div class="update-item">
+            <span class="update-date">Sep 2026</span>
+            <span class="update-title">ASI-2 Framework Launch</span>
+          </div>
+          <div class="update-item">
+            <span class="update-date">Coming Soon</span>
+            <span class="update-title">First Certified Partners</span>
+          </div>
+          <div class="update-item">
+            <span class="update-date">Coming Soon</span>
+            <span class="update-title">Technical Specification v1.0</span>
+          </div>
         </div>
-      </div>
+      </aside>
     </section>
     <footer>
       <div class="footer-main">
@@ -83,6 +108,7 @@ app.innerHTML = `
             <li><a href="/blog.html">ASI-2</a></li>
             <li><a href="/trust.html">Security Standards</a></li>
             <li><a href="/trust.html">Alignment Verification</a></li>
+            <li><a href="/trust.html">Continuous Monitoring</a></li>
           </ul>
         </div>
         <div class="footer-column">

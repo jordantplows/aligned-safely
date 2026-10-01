@@ -1,7 +1,5 @@
 import "./style.css";
-
-const app = document.querySelector<HTMLDivElement>("#app")!;
-
+const app = document.querySelector("#app");
 app.innerHTML = `
   <div class="page">
     <div class="banner">
@@ -18,52 +16,50 @@ app.innerHTML = `
         <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
       </div>
     </nav>
-    <section class="catalog">
-      <div class="catalog-header">
-        <h2>Penetration Testing</h2>
-        <p class="catalog-intro">Powered by Aligned 1</p>
-      </div>
-      <div class="aligned-info">
-        <div class="rule"></div>
-        <h3>About Aligned 1</h3>
-        <p>Aligned 1 is our specialized adversarial AI model built specifically for penetration testing AI applications and chatbots. Unlike traditional security tools, Aligned 1 understands the unique attack surfaces of language models and can identify vulnerabilities that conventional testing methods miss.</p>
-        <p>Our model systematically tests for prompt injection, jailbreak attempts, data extraction vulnerabilities, context manipulation, and other AI-specific security risks. Aligned 1 simulates real-world adversarial behavior to expose weaknesses before malicious actors can exploit them.</p>
-        <p>Every test produces a detailed technical report with proof-of-concept exploits, risk assessments, and concrete remediation steps — giving your team everything needed to secure your AI systems.</p>
-      </div>
-      <div class="pricing-grid">
-        <div class="pricing-card">
-          <div class="pricing-tier">Essential</div>
-          <div class="pricing-amount">$2,500</div>
-          <ul class="pricing-features">
-            <li>Prompt injection testing</li>
-            <li>Jailbreak detection</li>
-            <li>Security report</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Essential Pen-Test" class="pricing-cta">Get Started</a>
-        </div>
-        <div class="pricing-card">
-          <div class="pricing-tier">Professional</div>
-          <div class="pricing-amount">$7,500</div>
-          <ul class="pricing-features">
-            <li>Full adversarial testing</li>
-            <li>Data extraction attempts</li>
-            <li>Vulnerability report</li>
-            <li>Remediation guide</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Professional Pen-Test" class="pricing-cta">Get Started</a>
-        </div>
-        <div class="pricing-card">
-          <div class="pricing-tier">Enterprise</div>
-          <div class="pricing-amount">Custom</div>
-          <ul class="pricing-features">
-            <li>Continuous monitoring</li>
-            <li>Custom attack scenarios</li>
-            <li>Direct consultation</li>
-            <li>Quarterly audits</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Enterprise Pen-Test" class="pricing-cta">Contact Us</a>
-        </div>
-      </div>
+    <section class="content" style="max-width: 840px; margin: 0 auto; padding: 6rem 3rem;">
+      <div class="rule"></div>
+      <h1 style="font-size: 3rem; font-weight: 600; color: #ffffff; margin-bottom: 2rem; letter-spacing: -0.03em;">Privacy Policy</h1>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Last updated: September 25, 2026</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">1. Information We Collect</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We collect information you provide directly to us, including name, email address, company information, and details about your security testing requirements.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">2. How We Use Your Information</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We use the information we collect to provide, maintain, and improve our services, to process your requests, and to communicate with you about our services.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">3. Data Security</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We implement appropriate technical and organizational measures to protect your personal data against unauthorized or unlawful processing, accidental loss, destruction, or damage.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">4. Data Retention</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We retain your information for as long as necessary to provide our services and fulfill the purposes outlined in this policy, unless a longer retention period is required by law.</p>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Test results and vulnerability reports are retained for 7 years to support ongoing security research and ASI-2 certification maintenance. Contact information is retained while you remain an active customer and for 2 years after your last interaction with us.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">5. Data Sharing</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We do not sell your personal information. We may share data with:</p>
+      <ul style="margin-left: 1.5rem; margin-bottom: 1.5rem;">
+        <li style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 0.5rem;">Service providers who assist in delivering our services</li>
+        <li style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 0.5rem;">Legal authorities when required by law or to protect our rights</li>
+        <li style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 0.5rem;">ASI-2 certification auditors (with your consent)</li>
+      </ul>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">6. Your Rights</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">You have the right to access, correct, or delete your personal data. You may also object to or restrict certain processing of your data.</p>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Under GDPR and CCPA, you have additional rights including data portability and the right to opt-out of certain data processing. To exercise these rights, contact us at the email below.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">7. Cookies and Tracking</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We use essential cookies to maintain session state and provide our services. We do not use third-party tracking cookies or advertising networks. Analytics are collected in aggregate and anonymized.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">8. International Data Transfers</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Your data may be processed in countries outside your residence. We ensure appropriate safeguards are in place through standard contractual clauses and compliance with applicable data protection frameworks.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">9. Children's Privacy</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">Our services are not directed to individuals under 18. We do not knowingly collect personal information from children.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">10. Changes to This Policy</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">We may update this Privacy Policy periodically. We will notify you of material changes via email or through our website. Continued use of our services after changes constitutes acceptance of the updated policy.</p>
+
+      <h2 style="font-size: 1.5rem; font-weight: 600; color: #ffffff; margin: 3rem 0 1.5rem;">11. Contact Us</h2>
+      <p style="font-size: 1rem; line-height: 1.85; color: #a0a0a0; margin-bottom: 1.5rem;">If you have questions about this Privacy Policy, please contact us at <a href="mailto:contribute@alignedsafely.com" style="color: #c0392b; text-decoration: none;">contribute@alignedsafely.com</a></p>
     </section>
     <footer>
       <div class="footer-main">
@@ -83,6 +79,7 @@ app.innerHTML = `
             <li><a href="/blog.html">ASI-2</a></li>
             <li><a href="/trust.html">Security Standards</a></li>
             <li><a href="/trust.html">Alignment Verification</a></li>
+            <li><a href="/trust.html">Continuous Monitoring</a></li>
           </ul>
         </div>
         <div class="footer-column">

@@ -1,8 +1,4 @@
-import "./style.css";
-
-const app = document.querySelector<HTMLDivElement>("#app")!;
-
-app.innerHTML = `
+import"./style-DJ20TOMq.js";var e=document.querySelector(`#app`);e.innerHTML=`
   <div class="page">
     <div class="banner">
       <span class="banner-text">Submit a bounty now — if Aligned-1 our latest model doesn't solve the problem, you get your money back</span>

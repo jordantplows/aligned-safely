@@ -1,8 +1,4 @@
-import "./style.css";
-
-const app = document.querySelector<HTMLDivElement>("#app")!;
-
-app.innerHTML = `
+import"./style-DJ20TOMq.js";var e=document.querySelector(`#app`);e.innerHTML=`
   <div class="page">
     <div class="banner">
       <span class="banner-text">Submit a bounty now — if Aligned-1 our latest model doesn't solve the problem, you get your money back</span>
@@ -18,52 +14,40 @@ app.innerHTML = `
         <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
       </div>
     </nav>
-    <section class="catalog">
-      <div class="catalog-header">
-        <h2>Penetration Testing</h2>
-        <p class="catalog-intro">Powered by Aligned 1</p>
+    <section class="form-container">
+      <div class="form-header">
+        <h2>Submit a Bounty</h2>
+        <p class="form-intro">Tell us about the AI security issue you need tested. If Aligned-1 doesn't solve it, you get your money back.</p>
       </div>
-      <div class="aligned-info">
-        <div class="rule"></div>
-        <h3>About Aligned 1</h3>
-        <p>Aligned 1 is our specialized adversarial AI model built specifically for penetration testing AI applications and chatbots. Unlike traditional security tools, Aligned 1 understands the unique attack surfaces of language models and can identify vulnerabilities that conventional testing methods miss.</p>
-        <p>Our model systematically tests for prompt injection, jailbreak attempts, data extraction vulnerabilities, context manipulation, and other AI-specific security risks. Aligned 1 simulates real-world adversarial behavior to expose weaknesses before malicious actors can exploit them.</p>
-        <p>Every test produces a detailed technical report with proof-of-concept exploits, risk assessments, and concrete remediation steps — giving your team everything needed to secure your AI systems.</p>
-      </div>
-      <div class="pricing-grid">
-        <div class="pricing-card">
-          <div class="pricing-tier">Essential</div>
-          <div class="pricing-amount">$2,500</div>
-          <ul class="pricing-features">
-            <li>Prompt injection testing</li>
-            <li>Jailbreak detection</li>
-            <li>Security report</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Essential Pen-Test" class="pricing-cta">Get Started</a>
+      <form class="bounty-form" id="bountyForm">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
         </div>
-        <div class="pricing-card">
-          <div class="pricing-tier">Professional</div>
-          <div class="pricing-amount">$7,500</div>
-          <ul class="pricing-features">
-            <li>Full adversarial testing</li>
-            <li>Data extraction attempts</li>
-            <li>Vulnerability report</li>
-            <li>Remediation guide</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Professional Pen-Test" class="pricing-cta">Get Started</a>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
         </div>
-        <div class="pricing-card">
-          <div class="pricing-tier">Enterprise</div>
-          <div class="pricing-amount">Custom</div>
-          <ul class="pricing-features">
-            <li>Continuous monitoring</li>
-            <li>Custom attack scenarios</li>
-            <li>Direct consultation</li>
-            <li>Quarterly audits</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Enterprise Pen-Test" class="pricing-cta">Contact Us</a>
+        <div class="form-group">
+          <label for="company">Company (Optional)</label>
+          <input type="text" id="company" name="company">
         </div>
-      </div>
+        <div class="form-group">
+          <label for="issue">Describe the Issue</label>
+          <textarea id="issue" name="issue" rows="6" placeholder="What vulnerability or security concern do you need tested?" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="details">Additional Details</label>
+          <textarea id="details" name="details" rows="4" placeholder="Any specific attack vectors, context, or requirements we should know about?"></textarea>
+        </div>
+        <div class="calendar-section">
+          <div class="rule"></div>
+          <h3>Schedule a Call</h3>
+          <p>Book a 30-minute consultation to discuss your bounty submission and next steps.</p>
+          <a href="https://cal.com" target="_blank" class="calendar-link">Schedule on Calendar →</a>
+        </div>
+        <button type="submit" class="form-submit">Submit Bounty</button>
+      </form>
     </section>
     <footer>
       <div class="footer-main">
@@ -83,6 +67,7 @@ app.innerHTML = `
             <li><a href="/blog.html">ASI-2</a></li>
             <li><a href="/trust.html">Security Standards</a></li>
             <li><a href="/trust.html">Alignment Verification</a></li>
+            <li><a href="/trust.html">Continuous Monitoring</a></li>
           </ul>
         </div>
         <div class="footer-column">
@@ -158,4 +143,4 @@ app.innerHTML = `
       </div>
     </footer>
   </div>
-`;
+`;var t=document.getElementById(`bountyForm`),n=t.querySelector(`button[type="submit"]`);t.addEventListener(`submit`,async e=>{e.preventDefault();let r=new FormData(t),i={name:r.get(`name`),email:r.get(`email`),company:r.get(`company`),issue:r.get(`issue`),details:r.get(`details`)},a=n.textContent;n.textContent=`Submitting...`,n.disabled=!0;try{if((await fetch(`https://formspree.io/f/YOUR_FORM_ID`,{method:`POST`,headers:{"Content-Type":`application/json`},body:JSON.stringify(i)})).ok)n.textContent=`✓ Submitted`,n.style.background=`#27ae60`,t.reset(),setTimeout(()=>{n.textContent=a,n.style.background=``,n.disabled=!1},3e3);else throw Error(`Submission failed`)}catch{n.textContent=`Failed - Try Again`,n.style.background=`#c0392b`,setTimeout(()=>{n.textContent=a,n.style.background=``,n.disabled=!1},3e3)}});

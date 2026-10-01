@@ -1,7 +1,5 @@
 import "./style.css";
-
-const app = document.querySelector<HTMLDivElement>("#app")!;
-
+const app = document.querySelector("#app");
 app.innerHTML = `
   <div class="page">
     <div class="banner">
@@ -18,51 +16,66 @@ app.innerHTML = `
         <a href="mailto:contribute@alignedsafely.com" class="nav-link">Contact</a>
       </div>
     </nav>
-    <section class="catalog">
-      <div class="catalog-header">
-        <h2>Penetration Testing</h2>
-        <p class="catalog-intro">Powered by Aligned 1</p>
-      </div>
-      <div class="aligned-info">
+    <section class="trust-hero">
+      <div class="trust-container">
         <div class="rule"></div>
-        <h3>About Aligned 1</h3>
-        <p>Aligned 1 is our specialized adversarial AI model built specifically for penetration testing AI applications and chatbots. Unlike traditional security tools, Aligned 1 understands the unique attack surfaces of language models and can identify vulnerabilities that conventional testing methods miss.</p>
-        <p>Our model systematically tests for prompt injection, jailbreak attempts, data extraction vulnerabilities, context manipulation, and other AI-specific security risks. Aligned 1 simulates real-world adversarial behavior to expose weaknesses before malicious actors can exploit them.</p>
-        <p>Every test produces a detailed technical report with proof-of-concept exploits, risk assessments, and concrete remediation steps — giving your team everything needed to secure your AI systems.</p>
+        <h1 class="trust-title">Trust Center</h1>
+        <p class="trust-subtitle">Building the gold standard for AI alignment and security certification</p>
       </div>
-      <div class="pricing-grid">
-        <div class="pricing-card">
-          <div class="pricing-tier">Essential</div>
-          <div class="pricing-amount">$2,500</div>
-          <ul class="pricing-features">
-            <li>Prompt injection testing</li>
-            <li>Jailbreak detection</li>
-            <li>Security report</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Essential Pen-Test" class="pricing-cta">Get Started</a>
+    </section>
+    <section class="trust-content">
+      <div class="trust-section">
+        <div class="badge-showcase">
+          <div class="badge-container">
+            <div class="asi-badge">
+              <div class="badge-inner">
+                <div class="badge-icon">
+                  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <path d="M 30 50 L 45 65 L 70 35" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="badge-text">ASI-2</div>
+                <div class="badge-subtext">CERTIFIED</div>
+              </div>
+            </div>
+          </div>
+          <p class="badge-description">The ASI-2 certification badge represents the highest standard of AI alignment and security in the industry.</p>
         </div>
-        <div class="pricing-card">
-          <div class="pricing-tier">Professional</div>
-          <div class="pricing-amount">$7,500</div>
-          <ul class="pricing-features">
-            <li>Full adversarial testing</li>
-            <li>Data extraction attempts</li>
-            <li>Vulnerability report</li>
-            <li>Remediation guide</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Professional Pen-Test" class="pricing-cta">Get Started</a>
+      </div>
+
+      <div class="trust-section">
+        <h2>What is ASI-2?</h2>
+        <p>ASI-2 (Aligned Systems Intelligence Standard 2) is a comprehensive certification program that validates AI systems and organizations meet rigorous standards for alignment and security.</p>
+        <p>Similar to how SOC-2 became the industry standard for security and data privacy, ASI-2 establishes the benchmark for aligned AI systems—ensuring that AI development prioritizes safety, transparency, and human values.</p>
+      </div>
+
+      <div class="trust-section">
+        <h2>Certification Standards</h2>
+        <div class="standards-grid">
+          <div class="standard-card">
+            <h3>Alignment Verification</h3>
+            <p>Rigorous testing to ensure AI systems operate in accordance with stated objectives and human values.</p>
+          </div>
+          <div class="standard-card">
+            <h3>Security Framework</h3>
+            <p>Comprehensive security measures protecting against adversarial attacks and misalignment scenarios.</p>
+          </div>
+          <div class="standard-card">
+            <h3>Transparency Standards</h3>
+            <p>Clear documentation of model behavior, training data sources, and decision-making processes.</p>
+          </div>
+          <div class="standard-card">
+            <h3>Continuous Monitoring</h3>
+            <p>Ongoing assessment and validation to maintain certification as systems evolve.</p>
+          </div>
         </div>
-        <div class="pricing-card">
-          <div class="pricing-tier">Enterprise</div>
-          <div class="pricing-amount">Custom</div>
-          <ul class="pricing-features">
-            <li>Continuous monitoring</li>
-            <li>Custom attack scenarios</li>
-            <li>Direct consultation</li>
-            <li>Quarterly audits</li>
-          </ul>
-          <a href="mailto:contribute@alignedsafely.com?subject=Enterprise Pen-Test" class="pricing-cta">Contact Us</a>
-        </div>
+      </div>
+
+      <div class="trust-section">
+        <h2>Get ASI-2 Certified</h2>
+        <p>Organizations building AI systems can apply for ASI-2 certification to demonstrate their commitment to the highest standards of alignment and security.</p>
+        <a href="/bounty.html" class="trust-cta">Apply for Certification</a>
       </div>
     </section>
     <footer>
@@ -83,6 +96,7 @@ app.innerHTML = `
             <li><a href="/blog.html">ASI-2</a></li>
             <li><a href="/trust.html">Security Standards</a></li>
             <li><a href="/trust.html">Alignment Verification</a></li>
+            <li><a href="/trust.html">Continuous Monitoring</a></li>
           </ul>
         </div>
         <div class="footer-column">
