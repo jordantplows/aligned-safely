@@ -1,6 +1,4 @@
-import "./style.css";
-const app = document.querySelector("#app");
-app.innerHTML = `
+import"./style-DP_wUZhT.js";var e=document.querySelector(`#app`);e.innerHTML=`
   <div class="page">
     <div class="banner">
       <span class="banner-text">🚀 February Cohort Opens Feb 1 • Limited to 20 Students • 12 January Graduates Earned $28K First Month</span>
