@@ -135,10 +135,14 @@ app.use(errorHandler);
 
 async function startServer() {
   try {
-    // Initialize database
-    logger.info('Connecting to database...');
-    await initDatabase();
-    logger.info('Database connected successfully');
+    // Initialize database (optional for development)
+    if (process.env.DATABASE_URL) {
+      logger.info('Connecting to database...');
+      await initDatabase();
+      logger.info('Database connected successfully');
+    } else {
+      logger.warn('DATABASE_URL not set - running without database');
+    }
 
     // Start server
     app.listen(PORT, () => {

@@ -1,3 +1,11 @@
 {"level":"info","message":"Connecting to database...","module":"Server","service":"alignedsafely","timestamp":"2026-10-02T00:03:03.642Z"}
 {"level":"info","message":"Database connection test successful","module":"Database","service":"alignedsafely","timestamp":"2026-10-02T00:03:03.670Z"}
 {"level":"info","message":"Database connected successfully","module":"Server","service":"alignedsafely","timestamp":"2026-10-02T00:03:03.671Z"}
+{"level":"warn","message":"DATABASE_URL not set - running without database","module":"Server","service":"alignedsafely","timestamp":"2026-10-02T00:05:32.997Z"}
+{"level":"info","message":"🚀 AlignedSafely Platform running on port 3000","module":"Server","service":"alignedsafely","timestamp":"2026-10-02T00:05:33.000Z"}
+{"level":"info","message":"📊 API: http://localhost:3000/api/v1","module":"Server","service":"alignedsafely","timestamp":"2026-10-02T00:05:33.001Z"}
+{"level":"info","message":"🏥 Health: http://localhost:3000/health","module":"Server","service":"alignedsafely","timestamp":"2026-10-02T00:05:33.001Z"}
+{"level":"info","message":"🌍 Environment: undefined","module":"Server","service":"alignedsafely","timestamp":"2026-10-02T00:05:33.001Z"}
+{"ip":"::1","level":"info","message":"GET /","module":"Server","service":"alignedsafely","timestamp":"2026-10-02T00:05:37.422Z","userAgent":"curl/8.7.1"}
+{"ip":"::1","level":"info","message":"GET /health","module":"Server","service":"alignedsafely","timestamp":"2026-10-02T00:05:42.226Z","userAgent":"curl/8.7.1"}
+{"ip":"::1","level":"info","message":"GET /api/v1/","module":"Server","service":"alignedsafely","timestamp":"2026-10-02T00:05:45.727Z","userAgent":"curl/8.7.1"}
