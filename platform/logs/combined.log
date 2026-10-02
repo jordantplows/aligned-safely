@@ -1,0 +1,3 @@
+{"level":"info","message":"Connecting to database...","module":"Server","service":"alignedsafely","timestamp":"2026-10-02T00:03:03.642Z"}
+{"level":"info","message":"Database connection test successful","module":"Database","service":"alignedsafely","timestamp":"2026-10-02T00:03:03.670Z"}
+{"level":"info","message":"Database connected successfully","module":"Server","service":"alignedsafely","timestamp":"2026-10-02T00:03:03.671Z"}
