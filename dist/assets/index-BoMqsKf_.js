@@ -1,20 +1,4 @@
-import './style.css';
-
-const modules = [
-  { id: '3.1', name: 'Sentinel', phase: 'Detect', desc: 'Monitoring of model behavior, compute allocation and agentic activity. Deliverable: open monitoring specification and reference implementation.' },
-  { id: '3.2', name: 'Tripwire', phase: 'Detect', desc: 'Capability thresholds agreed in advance, with defined escalation. Deliverable: published threshold framework.' },
-  { id: '3.3', name: 'Quarantine', phase: 'Contain', desc: 'Isolated environments for testing and holding systems of unknown alignment. Deliverable: containment facility design.' },
-  { id: '3.4', name: 'Lens', phase: 'Align', desc: 'Interpretability and audit methods that show what a model is optimizing for. Deliverable: audit toolkit.' },
-  { id: '3.5', name: 'Concord', phase: 'Align', desc: 'Verification and information-sharing between nations and labs. Deliverable: draft coordination protocol.' }
-];
-
-let formSubmitted = false;
-
-function renderApp() {
-  const app = document.getElementById('app');
-  if (!app) return;
-
-  app.innerHTML = `
+(function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),t.credentials=e.crossOrigin===`use-credentials`?`include`:e.crossOrigin===`anonymous`?`omit`:`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})();var e=[{id:`3.1`,name:`Sentinel`,phase:`Detect`,desc:`Monitoring of model behavior, compute allocation and agentic activity. Deliverable: open monitoring specification and reference implementation.`},{id:`3.2`,name:`Tripwire`,phase:`Detect`,desc:`Capability thresholds agreed in advance, with defined escalation. Deliverable: published threshold framework.`},{id:`3.3`,name:`Quarantine`,phase:`Contain`,desc:`Isolated environments for testing and holding systems of unknown alignment. Deliverable: containment facility design.`},{id:`3.4`,name:`Lens`,phase:`Align`,desc:`Interpretability and audit methods that show what a model is optimizing for. Deliverable: audit toolkit.`},{id:`3.5`,name:`Concord`,phase:`Align`,desc:`Verification and information-sharing between nations and labs. Deliverable: draft coordination protocol.`}],t=!1;function n(){let r=document.getElementById(`app`);if(r&&(r.innerHTML=`
     <article>
       <div class="header">
         <span>ASI-MEMO-001</span>
@@ -77,14 +61,14 @@ function renderApp() {
               </tr>
             </thead>
             <tbody>
-              ${modules.map(m => `
+              ${e.map(e=>`
                 <tr>
-                  <td class="mono">${m.id}</td>
-                  <td class="bold">${m.name}</td>
-                  <td class="mono">${m.phase}</td>
-                  <td>${m.desc}</td>
+                  <td class="mono">${e.id}</td>
+                  <td class="bold">${e.name}</td>
+                  <td class="mono">${e.phase}</td>
+                  <td>${e.desc}</td>
                 </tr>
-              `).join('')}
+              `).join(``)}
             </tbody>
           </table>
         </div>
@@ -102,11 +86,11 @@ function renderApp() {
       <section id="s5">
         <h2>5. Participation</h2>
         <p>We are assembling the team. Researchers, engineers, policymakers and institutions willing to put this problem first are invited to respond below.</p>
-        ${formSubmitted ? `
+        ${t?`
           <div class="form-success">
             Received. We read every submission and will reply.
           </div>
-        ` : `
+        `:`
           <form id="participation-form" class="participation-form">
             <label>
               Name
@@ -145,20 +129,4 @@ function renderApp() {
         <span>ASI-MEMO-001 · Rev. 1</span>
       </footer>
     </article>
-  `;
-
-  // Set up form handler
-  if (!formSubmitted) {
-    const form = document.getElementById('participation-form');
-    if (form) {
-      form.addEventListener('submit', (e) => {
-        e.preventDefault();
-        formSubmitted = true;
-        renderApp();
-      });
-    }
-  }
-}
-
-// Initialize
-renderApp();
+  `,!t)){let e=document.getElementById(`participation-form`);e&&e.addEventListener(`submit`,e=>{e.preventDefault(),t=!0,n()})}}n();
